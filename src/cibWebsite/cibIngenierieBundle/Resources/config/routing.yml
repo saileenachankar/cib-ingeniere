@@ -1,0 +1,5 @@
+cibWebsitecibIngenierieBundle_homepage:
+    pattern:  /
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:homePage:index" }
+    requirements:
+        _method:  GET

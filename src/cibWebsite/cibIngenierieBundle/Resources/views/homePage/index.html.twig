@@ -1,0 +1,90 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{{ asset('image/image1.jpg') }}" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="{{ asset('image/image2.jpg') }}" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="{{ asset('image/image3.jpg') }}" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<div class="container">
+	<div class="col-md-3">
+		<h3>Societe</h3>
+		<img src="{{ asset('image/logo-small.png') }}">
+		<article>Fondée en 1992, la société CIB INGENIERIE développe des solutions logicielles innovantes</article>
+		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+	</div>
+	<div class="col-md-3">
+		<h3>Logiciels</h3>
+		<img src="{{ asset('image/logo-small.png') }}">
+		<article>Fondée en 1992, la société CIB INGENIERIE développe des solutions logicielles innovantes</article>
+		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+	</div>
+	<div class="col-md-3">
+		<h3>Produits</h3>
+		<img src="{{ asset('image/logo-small.png') }}">
+		<article>Fondée en 1992, la société CIB INGENIERIE développe des solutions logicielles innovantes</article>
+		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+	</div>
+	<div class="col-md-3">
+		<h3>Services</h3>
+		<img src="{{ asset('image/logo-small.png') }}">
+		<article>Fondée en 1992, la société CIB INGENIERIE développe des solutions logicielles innovantes</article>
+		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+	</div>
+</div>
+
+<div class="container" style="margin:15px 0px;"></div>
+
+<div class="container">
+	<div class="col-md-6">
+		<h3>NOS METIERS</h3>
+		<img src="{{ asset('image/image4.png') }}" alt="...">
+	</div>
+	<div class="col-md-6">
+		<h3>NOS EXPERTISE</h3>
+		<p>logiciels de monetique et d'encaissement.</p>
+		<p>D'applications cartes et de chargement telephonique, D'automatisme et de controle.</p>
+		<p>De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</p>
+		<p>De serveurs de telecollecte.</p>
+		<p>De logiciels de gestion centralisee on et off line.</p>
+		<p>De logiciels de gestion de base de donnees.</p>	
+	</div>
+</div>
+
+
+{% endblock %}

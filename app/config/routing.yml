@@ -1,0 +1,4 @@
+cib_websitecib_ingenierie:
+    resource: "@cibWebsitecibIngenierieBundle/Resources/config/routing.yml"
+    prefix:   /
+

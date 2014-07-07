@@ -1,0 +1,7 @@
+parameters:
+#    cib_websitecib_ingenierie.example.class: cibWebsite\cibIngenierieBundle\Example
+
+services:
+#    cib_websitecib_ingenierie.example:
+#        class: %cib_websitecib_ingenierie.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
