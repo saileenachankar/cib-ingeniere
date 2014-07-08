@@ -1,6 +1,10 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+<div class="container">
+<div class="row">
+{#<div class="col-md-1"></div>#}
+<div class="col-md-12">
    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -10,27 +14,28 @@
   </ol>
 
   <!-- Wrapper for slides -->
+  <center>
   <div class="carousel-inner">
     <div class="item active">
-      <img src="{{ asset('image/image1.jpg') }}" alt="...">
+      <img src="{{ asset('image/image1.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
+      <div class="carousel-caption">
+        hiiiii
+      </div>
+    </div>
+    <div class="item">
+      <img src="{{ asset('image/image2.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="{{ asset('image/image2.jpg') }}" alt="...">
+      <img src="{{ asset('image/image3.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
       <div class="carousel-caption">
         ...
       </div>
     </div>
-    <div class="item">
-      <img src="{{ asset('image/image3.jpg') }}" alt="...">
-      <div class="carousel-caption">
-        ...
-      </div>
-    </div>
-    ...
   </div>
+   </center>
 
   <!-- Controls -->
   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -40,31 +45,55 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
+</div>
+</div>
+</div>
+
+<div class="container" style="margin:15px 0px;"></div>
 
 <div class="container">
 	<div class="col-md-3">
-		<h3>Societe</h3>
+	<div class="thumbnail">
+	
+		
 		<img src="{{ asset('image/logo-small.png') }}">
-		<article>Fond�e en 1992, la soci�t� CIB INGENIERIE d�veloppe des solutions logicielles innovantes</article>
-		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+		<div class="caption">
+		<h4 class="thumbnail-header">Societe</h4>
+		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
+		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+	</div>
 	</div>
 	<div class="col-md-3">
-		<h3>Logiciels</h3>
+	<div class="thumbnail" >
+	
+		
 		<img src="{{ asset('image/logo-small.png') }}">
-		<article>Fond�e en 1992, la soci�t� CIB INGENIERIE d�veloppe des solutions logicielles innovantes</article>
-		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+		<div class="caption">
+		<h4 class="thumbnail-header">Logiciels</h4>
+		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
+		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+	</div>
 	</div>
 	<div class="col-md-3">
-		<h3>Produits</h3>
-		<img src="{{ asset('image/logo-small.png') }}">
-		<article>Fond�e en 1992, la soci�t� CIB INGENIERIE d�veloppe des solutions logicielles innovantes</article>
-		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+	<div class="thumbnail">
+	<img src="{{ asset('image/logo-small.png') }}">
+	<div class="caption">
+	<h4 class="thumbnail-header">Produits</h4>
+		
+		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
+		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+	</div>
 	</div>
 	<div class="col-md-3">
-		<h3>Services</h3>
+	<div class="thumbnail">
+	
+		
 		<img src="{{ asset('image/logo-small.png') }}">
-		<article>Fond�e en 1992, la soci�t� CIB INGENIERIE d�veloppe des solutions logicielles innovantes</article>
-		<button type="button" class="btn btn-primary btn-xs">En Savoir Plus</button>
+		<div class="caption">
+		<h4 class="thumbnail-header">Services</h4>
+		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
+		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+	</div>
 	</div>
 </div>
 
@@ -72,19 +101,26 @@
 
 <div class="container">
 	<div class="col-md-6">
-		<h3>NOS METIERS</h3>
+	<div class="wrapper">
+		<center><h3 class="thumbnail-header" style="border-bottom:1px solid #ff0000;">NOS METIERS</h3></center>
 		<img src="{{ asset('image/image4.png') }}" alt="...">
 	</div>
+	</div>
 	<div class="col-md-6">
-		<h3>NOS EXPERTISE</h3>
-		<p>logiciels de monetique et d'encaissement.</p>
-		<p>D'applications cartes et de chargement telephonique, D'automatisme et de controle.</p>
-		<p>De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</p>
-		<p>De serveurs de telecollecte.</p>
-		<p>De logiciels de gestion centralisee on et off line.</p>
-		<p>De logiciels de gestion de base de donnees.</p>	
+	<div class="wrapper">
+		<center><h3 class="thumbnail-header" style="border-bottom:1px solid #ff0000;"> &nbsp; NOS EXPERTISE &nbsp; </h3></center>
+		<p>&nbsp;</p>
+		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> Logiciels de monetique et d'encaissement.</p>
+		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> D'applications cartes et de chargement telephonique, D'automatisme et de controle.</p>
+		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</p>
+		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De serveurs de telecollecte.</p>
+		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De logiciels de gestion centralisee on et off line.</p>
+		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De logiciels de gestion de base de donnees.</p>	
+		
+	</div>
 	</div>
 </div>
+
 
 
 {% endblock %}
