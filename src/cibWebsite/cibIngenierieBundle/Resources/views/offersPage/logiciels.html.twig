@@ -1,0 +1,128 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <h4>Logiciels</h4>
+            <p>Du plus simple au plus sophistiqué, les logiciels de CIB INGENIERIE vous apportent une solution entièrement paramétrable pour répondre aux différents besoins de votre activité.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-3">
+                <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar">
+                    <li><h5>catégories</h5></li>
+                    <li class="active"><a href="#section-1">Paiements cartes</a></li>
+                    <li><a href="#section-2">Commerces</a></li>
+                    <li><a href="#section-3">Commerces itinérants</a></li>
+                    <li><a href="#section-4">Restaurants</a></li>
+                    <li><a href="#section-5">Intégrateurs informatiques</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-md-9">
+                <h4 id="section-1">Paiements cartes</h4>
+                    <div class="row">
+                        <div class="thumbnail col-md-3">
+                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                            <h5>LOGO CIB</h5>
+                            <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
+                            <p><a href="#" class="btn">Fiche Produit</a></p>
+                        </div>
+                        <div class="thumbnail col-md-3">
+                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                            <h5>CIB. TIME</h5>
+                            <p>Plus besoin d’installer une badgeuse pour faire pointer vos salariés. CIB.TIME transforme votre TPE en une véritable pointeuse électronique.</p>
+                            <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
+                            <p><a href="#" class="btn">Fiche Produit</a></p>
+                        </div>
+                    </div>
+                <hr>
+
+                <h4 id="section-2">Commerces</h4>
+                    <div class="row">
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>FIDELE HIT</h5>
+                        <p>Pour faire revenir vos clients plus souvent, leur donner envie de consommer plus et vous permettre de mieux les connaitre, le plus facile c’est de les séduire avec la carte FIDELE HIT.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>MONEPASS</h5>
+                        <p>Pour simplifier le paiement de vos clients tout en les fidélisant, le plus simple c’est de leur fournir votre propre carte pré-chargée MONEPASS</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>CIBELITE TACTILE</h5>
+                        <p>Pourquoi avoir d’un coté un TPE et de l’autre une CAISSE ENTREGISTREUSE TPV alors que tout peut être sur le même appareil. Avec CIBELITE CIBELTE plus d’erreur de paiement et les deux opérations se font en une fraction de seconde</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    </div>
+                    <hr>
+
+                <h4 id="section-3">Commerces itinérants</h4>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>CIBELITE VOLANTE INDIGENICO</h5>
+                        <p>Que vous soyez dans un avion, un train ou un camion, dans un chapiteau de supermarché ou en caisse d’appoint, CIBELITE VOLANTE traite vos ventes, vos stocks et vos paiements sans déplacer une montagne d’électronique.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                <hr>
+
+                <h4 id="section-4">Restaurants</h4>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>LOGO RESTAURANT</h5>
+                        <p>Faîtes apparaitre votre adresse et votre logo à chaque transaction de paiement et sortez à la demande une note de repas avec la TVA même si vous n’avez pas de caisse enregistreuse.
+                        </p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>RESTOPACK TACTILE </h5>
+                        <p>La caisse restaurant VAE, TPV et TPE.</p>
+                        <h6>+ Option TICKET RESTAURANT</h6>
+                        <p>Traitement des tickets restaurant avec émission d’avoir sur le rendu monnaie.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>CASHELITE</h5>
+                        <p>Avec votre caisse actuelle, ne perdez plus de temps pour apporter la note et faire payer. CASHELITE reçoit par radio l’impression de vos notes à table, il ne vous reste plus qu’à encaisser sans revenir saisir vos règlements en caisse.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>CIBELITE RESTAURANT</h5>
+                        <p>GRAND PRIX DE L’INNOVATION SIRHA 2007</p>
+                        <p>Un seul appareil pour prendre la commande à table, transmettre en cuisine les préparations de plats, faire payer et sortir la note à la table, vous allez en gagnez du temps et satisfaire des clients.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>CIBELITE RESTAURANT COLLECTIF</h5>
+                        <p>Vendre des boissons et des plats, gérer des subventions et admissions sur des cartes convives contact et sans contact, CIBELITE RESTAURANT COLLECTIF transforme votre poste d’encaissement en le reliant aux automates de distribution et à des bornes de rechargement cartes à la vitesse d’un Expresso.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                <hr>
+
+                <h4 id="section-5">Intégrateurs informatiques</h4>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>PERIFELITE</h5>
+                        <p>Imprimer vos tickets de caisse sur le TPE, traiter le paiement ou faire une vente à distance ? PERIFELITE : transformez votre terminal CB en un véritable poste multifonctions de votre application informatique.</p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+                    <div class="thumbnail col-md-3">
+                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                        <h5>CASHELITE</h5>
+                        <p>Avec votre logiciel de caisse restaurant, faîtes gagner du temps à vos clients. CASHELITE reçoit sur le TPE par radio l’impression de vos notes de caisse à table, et solde directement les règlements de votre logiciel d’encaissement. (PDF CASHELITE)
+                        </p>
+                        <p><a href="#" class="btn">Fiche Produit</a></p>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -3,3 +3,24 @@ cibWebsitecibIngenierieBundle_homepage:
     defaults: { _controller: "cibWebsitecibIngenierieBundle:homePage:index" }
     requirements:
         _method:  GET
+
+
+cibWebsitecibIngenierieBundle_aboutpage:
+    pattern:  /about
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:aboutPage:about" }
+    requirements:
+        _method:  GET
+
+
+cibWebsitecibIngenierieBundle_logicielspage:
+    pattern:  /logiciels
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:offersPage:logiciels" }
+    requirements:
+        _method:  GET
+
+
+cibWebsitecibIngenierieBundle_materielspage:
+    pattern:  /materiels
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:offersPage:materiels" }
+    requirements:
+        _method:  GET

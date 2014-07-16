@@ -51,74 +51,81 @@
 
 <div class="container" style="margin:15px 0px;"></div>
 
-<div class="container">
-	<div class="col-md-3">
-	<div class="thumbnail">
-	
-		
+
+<div class="container text-center">
+    <div style="margin-bottom: 30px;">
+        <h3 class="">SAVOIR QUI SOMMES-NOUS</h3>
+    </div>
+<div class="row">
+
+	<div class="col-xs-6 col-md-3">
+	<div class="thumbnail orange">
 		<img src="{{ asset('image/logo-small.png') }}">
 		<div class="caption">
 		<h4 class="thumbnail-header">Societe</h4>
 		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
-		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+		<p><center><a href="{{ path('cibWebsitecibIngenierieBundle_aboutpage') }}" type="button" class="btn btn-xs red-btn">En Savoir Plus</a></center></p></div>
 	</div>
 	</div>
-	<div class="col-md-3">
-	<div class="thumbnail" >
+	<div class="col-xs-6 col-md-3">
+	<div class="thumbnail green" >
 	
 		
 		<img src="{{ asset('image/logo-small.png') }}">
 		<div class="caption">
 		<h4 class="thumbnail-header">Logiciels</h4>
 		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
-		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+		<p><center><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}" type="button" class="btn btn-xs red-btn">En Savoir Plus</a></center></p></div>
 	</div>
 	</div>
-	<div class="col-md-3">
-	<div class="thumbnail">
+	<div class="col-xs-6 col-md-3">
+	<div class="thumbnail yellow">
 	<img src="{{ asset('image/logo-small.png') }}">
 	<div class="caption">
 	<h4 class="thumbnail-header">Produits</h4>
 		
 		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
-		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+		<p><center><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}" type="button" class="btn btn-xs red-btn">En Savoir Plus</a></center></p></div>
 	</div>
 	</div>
-	<div class="col-md-3">
-	<div class="thumbnail">
+	<div class="col-xs-6 col-md-3">
+	<div class="thumbnail blue">
 	
 		
 		<img src="{{ asset('image/logo-small.png') }}">
 		<div class="caption">
 		<h4 class="thumbnail-header">Services</h4>
 		<p>FondÃ©e en 1992, la sociÃ©tÃ© CIB INGENIERIE dÃ©veloppe des solutions logicielles innovantes</p>
-		<center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></div>
+		<p><center><button type="button" class="btn btn-xs red-btn">En Savoir Plus</button></center></p></div>
 	</div>
 	</div>
 </div>
+</div>
+
 
 <div class="container" style="margin:15px 0px;"></div>
 
 <div class="container">
-	<div class="col-md-6">
-	<div class="wrapper">
-		<center><h3 class="thumbnail-header" style="border-bottom:1px solid #ff0000;">NOS METIERS</h3></center>
-		<img src="{{ asset('image/image4.png') }}" alt="...">
-	</div>
-	</div>
-	<div class="col-md-6">
-	<div class="wrapper">
-		<center><h3 class="thumbnail-header" style="border-bottom:1px solid #ff0000;"> &nbsp; NOS EXPERTISE &nbsp; </h3></center>
-		<p>&nbsp;</p>
-		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> Logiciels de monetique et d'encaissement.</p>
-		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> D'applications cartes et de chargement telephonique, D'automatisme et de controle.</p>
-		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</p>
-		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De serveurs de telecollecte.</p>
-		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De logiciels de gestion centralisee on et off line.</p>
-		<p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De logiciels de gestion de base de donnees.</p>	
-		
-	</div>
-	</div>
+    <div class="row">
+	    <div class="col-md-6">
+	        <div class="thumbnail wrapper">
+		        <h3 class="thumbnail-header text-center" style="border-bottom:1px solid #ff0000;">NOS METIERS</h3>
+		        <img src="{{ asset('image/image4.png') }}" alt="...">
+	        </div>
+	    </div>
+	    <div class="col-md-6">
+	        <div class="thumbnail wrapper">
+		        <h3 class="thumbnail-header text-center" style="border-bottom:1px solid #ff0000;"> &nbsp; NOS EXPERTISE &nbsp; </h3>
+		        <p>&nbsp;</p>
+		        <p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> Logiciels de monetique et d'encaissement.</p>
+		        <p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> D'applications cartes et de chargement telephonique, D'automatisme et de controle.</p>
+		        <p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</p>
+		        <p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De serveurs de telecollecte.</p>
+		        <p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De logiciels de gestion centralisee on et off line.</p>
+		        <p><span class="glyphicon glyphicon-ok" style="margin-right: 15px;"></span> De logiciels de gestion de base de donnees.</p>
+	        </div>
+	    </div>
+    </div>
 </div>
 
 

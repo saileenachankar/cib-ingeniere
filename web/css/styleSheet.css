@@ -67,22 +67,80 @@
 
 .wrapper {
 	padding: 10px 25px;
-	border:1px solid #ccc;
+	border:5px ridge #d84a38
 }
 
 .wrapper:hover {
-	border:1px solid #ff0000;
+	/*border:1px solid #ff0000;*/
 }
 
 .top-footer {
-	background-color: #ffffff;
-	color:#ff0000;
-	/*border-bottom: 1px solid #800000;*/
-	box-shadow: 0px 2px 10px #ff0000;
+	padding-top:20px;
+	background-color: #222222;
+	color:#cfcfcf;
+	/*border-bottom: 1px solid #800000;
+	box-shadow: 0px 2px 10px #ff0000;*/
+}
+
+.footer-header {
+	color: #ff3333;
+}
+
+.top-footer a {
+	color: #e6e6e6;
+}
+
+.footer-col {
+	padding: 0px 20px 33px 20px;
 }
 
 .bottom-footer {
 	padding: 30px;
-	background-color: #ff4d4d;
-	color: #666666;
+	background-color: #333333;
+	color: #8b8b8b;
 }
+
+.bottom-footer a {
+	color: #8b8b8b;
+}
+
+.orange {
+    background: #ffad33;
+}
+
+.green {
+    background: #66ff66;
+}
+
+.yellow {
+    background: #ffdb4d;
+}
+
+.blue {
+    background: #6cb5ff;
+}
+
+.affix-top,.affix{
+    position: static;
+}
+
+@media (min-width: 979px) {
+    #sidebar.affix-top {
+        position: static;
+        margin-top:30px;
+        width:228px;
+    }
+
+    #sidebar.affix {
+        position: fixed;
+        top:70px;
+        width:228px;
+    }
+}
+
+#sidebar li.active {
+    border:0 #eee solid;
+    border-right-width:4px;
+}
+
+

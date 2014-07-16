@@ -8,13 +8,14 @@
         	<link rel="stylesheet" href="{{ asset('bootstrap-3.2.0/css/bootstrap.min.css') }}" type="text/css" media="all" />
         	<link rel="stylesheet" href="{{ asset('bootstrap-3.2.0/css/bootstrap.css') }}" type="text/css" media="all" />
         	<link rel="stylesheet" href="{{ asset('css/styleSheet.css') }}" type="text/css" media="all" />
+            <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" media="all" />
         {% endblock %}
         <link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css"/>
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     
     <body>
-    <div class="page-header">
+    <div class="page-header ">
     	<div class="topbar" style="z-index=12; padding:4px 0px; margin-left:4em;">
     		<div class="container-fluid">
     		
@@ -31,19 +32,19 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="#"><img src="{{ asset('image/logo-small.png') }}" style="margin-right:10px;" /></a>
+      				<a class="navbar-brand" href="{{ path('cibWebsitecibIngenierieBundle_homepage') }}"><img src="{{ asset('image/logo-small.png') }}" style="margin-right:10px;" /></a>
     			</div>
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav"> {#id="menu"#}
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="{{ path('cibWebsitecibIngenierieBundle_homepage') }}">Home</a></li>
         <li>&nbsp;</li>
-        <li><a href="#">Societe</a></li>
+        <li><a href="{{ path('cibWebsitecibIngenierieBundle_aboutpage') }}">Societe</a></li>
         <li>&nbsp;</li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Offres <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Logiciels</a></li>
-            <li><a href="#">Materiels</a></li>
+            <li><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}">Logiciels</a></li>
+            <li><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}">Materiels</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Financement</a></li>
           </ul>
@@ -61,22 +62,24 @@
         {% block body %}{% endblock %}
         
 
-<footer style="background-color:#ff4d4d;">
+<footer style="background-color:#222222;">
+<div class="container" style="margin-bottom: 0px;">
+
 	<section class="top-footer">
 	<div class="container">
-	<div class="row">
-	<div class="col-md-2 col-sm-4" style="padding:0px 20px;"></div>
-		<div class="col-md-2 col-sm-4" style="padding:0px 20px;">
-		<h5>Nos Offres</h5>
+	
+	
+		<div class="col-md-4 footer-col">
+		<h4 class="footer-header">Nos Offres</h4>
 			<ul class="list-unstyled">
-				<li><a href="#">Logiciels</a></li>
-            	<li><a href="#">Materiels</a></li>
+				<li><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}">Logiciels</a></li>
+            	<li><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}">Materiels</a></li>
             	<li><a href="#">Services</a></li>
             	<li><a href="#">Financement</a></li>
 			</ul>
 		</div>
-		<div class="col-md-4 col-sm-8">
-			<h5>Actualities</h5>
+		<div class="col-md-4 footer-col">
+			<h4 class="footer-header">Actualities</h4>
 			<ul class="list-unstyled">
 				<li><a href="#">sample1</a></li>
             	<li><a href="#">sample2</a></li>
@@ -84,25 +87,27 @@
             	<li><a href="#">sample4</a></li>
 			</ul>
 		</div>
-		<div class="col-md-4 col-sm-8">
-			<h4>CIB-Ingenierie</h4>
-			<address style="color:#000000;">
-				<p>7 Rue du 35ème Régiment d’Aviation
+		<div class="col-md-4 footer-col">
+			<h4 class="footer-header">CIB-Ingenierie</h4>
+			<address>
+				<p>7 Rue du 35ï¿½me Rï¿½giment dï¿½Aviation
 				<br>
 				69500 BRON
 				<br>
-				Tél : 33(0)4 72 13 59 00
+				Tï¿½l : 33(0)4 72 13 59 00
 				<br>
 				Fax : 33(0)4 78 54 37 23 
 				</p>
 			</address>
 		</div>
-		</div>
+		
 		</div>
 	</section>
 	<section class="bottom-footer">
-		<center>Copyright © 2014 <a href="#">CIB-Ingenierie</a> / <a href="#">Mentiones Legales</a></center>
+		<center>Copyright ï¿½ 2014 <a href="#" class="footer-header" style="color:#ff6666;">CIB-Ingenierie</a> / <a href="#">Mentiones Legales</a></center>
 	</section>
+</div>
+
 </footer>
 	
 
