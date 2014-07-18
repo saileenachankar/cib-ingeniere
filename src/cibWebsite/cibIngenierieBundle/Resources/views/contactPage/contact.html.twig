@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <section class="col-md-12">
+                <div class="well-sm">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d22270.93241334631!2d4.888257828844068!3d45.75382122096069!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4c1c8ff51a99b%3A0x7367475f4d9270c6!2sCIB+Ing%C3%A9nierie!5e0!3m2!1sen!2s!4v1405500818720" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <h3>Address:</h3>
+                <address>
+                    <h5>CIB-Ingenierie</h5>
+                    <p>7 Rue du 35�me R�giment d�Aviation
+                        <br>
+                        69500 BRON
+                    </p>
+                </address>
+                <h3>Telephone:</h3>
+                <p>T�l : 33(0)4 72 13 59 00</p>
+                <p>Fax : 33(0)4 78 54 37 23</p>
+            </div>
+            <div class="col-md-8 col-sm-8">
+                <h3>Contact form</h3>
+                <form action="{{ path('cibWebsitecibIngenierieBundle_contactpage') }}" method="post" {{ form_enctype(form) }}>
+                    {% include 'cibWebsitecibIngenierieBundle:contactPage:contactForm.html.twig' %}
+                </form>
+            </div>
+        </div>
+    </div>
+{% endblock %}

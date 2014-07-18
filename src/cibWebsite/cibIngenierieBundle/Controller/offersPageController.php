@@ -14,4 +14,14 @@ class offersPageController extends Controller
     {
         return $this->render('cibWebsitecibIngenierieBundle:offersPage:materiels.html.twig');
     }
+
+    public function servicesAction()
+    {
+        return $this->render('cibWebsitecibIngenierieBundle:offersPage:services.html.twig');
+    }
+
+    public function financementAction()
+    {
+        return $this->render('cibWebsitecibIngenierieBundle:offersPage:financement.html.twig');
+    }
 }

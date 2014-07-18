@@ -24,3 +24,23 @@ cibWebsitecibIngenierieBundle_materielspage:
     defaults: { _controller: "cibWebsitecibIngenierieBundle:offersPage:materiels" }
     requirements:
         _method:  GET
+
+cibWebsitecibIngenierieBundle_servicespage:
+    pattern:  /services
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:offersPage:services" }
+    requirements:
+        _method:  GET
+
+
+cibWebsitecibIngenierieBundle_financementpage:
+    pattern:  /financement
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:offersPage:financement" }
+    requirements:
+        _method:  GET
+
+
+cibWebsitecibIngenierieBundle_contactpage:
+    pattern:  /contact
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:contactPage:contact" }
+    requirements:
+        _method:  GET|POST

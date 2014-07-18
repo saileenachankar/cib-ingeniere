@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 well">Services</h4>
+            <p>Afin d’apporter un service de grande qualité, CIB INGENIERIE fournit à ses clients directs et distributeurs, des solutions de maintenance matériels, des contrats d’assistance téléphonique ainsi que la mise à jour de ses logiciels.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{{ asset('image/logo-small.png') }}">
+                    <div class="caption">
+                        <h4 class="thumbnail-header">CONTRAT DE MAINTENANCE</h4>
+                        <p>Maintenance matériel et mise à jour logiciel par échange standard sur l’ensemble du territoire national</p>
+                        <p>du lundi au jeudi de 9 H00 à 12H30 et de 14H00 à 18H00</p>
+                        <p>du vendredi au samedi de 9 H00 à 12H30 et de 14H00 à 17H00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{{ asset('image/logo-small.png') }}">
+                    <div class="caption">
+                        <h4 class="thumbnail-header">CONTRAT D’ASSISTANCE</h4>
+                        <p>Maintenance et mise à jour logiciel par échange standard sur l’ensemble du territoire national</p>
+                        <p>du lundi au jeudi de 9 H00 à 12H30 et de 14H00 à 18H00</p>
+                        <p>du vendredi au samedi de 9 H00 à 12H30 et de 14H00 à 17H00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <img src="{{ asset('image/logo-small.png') }}">
+                    <div class="caption">
+                        <h4 class="thumbnail-header">MISE A JOUR LOGICIELS</h4>
+                        <p>CIB INGENIERIE a mis en place, pour satisfaire ses clients, des solutions de mises à jour logiciel et de téléchargement de programmes par liaison RTC, IP et clé USB.</p>
+                        <p>Les sauvegardes de données et le chargement des programmes peuvent aussi se faire au travers de clé USB et carte MMC afin de simplifier au maximum le remplacement des appareils sous contrat SAV.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
