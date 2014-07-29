@@ -1,1 +1,9 @@
+.carouselTitle, .carouselText {
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    background-color: #ff0000;
+}
+
 

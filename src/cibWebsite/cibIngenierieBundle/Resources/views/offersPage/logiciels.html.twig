@@ -7,29 +7,61 @@
             <p class="text-center col-md-offset-2 col-md-8">Du plus simple au plus sophistiqué, les logiciels de CIB INGENIERIE vous apportent une solution entièrement paramétrable pour répondre aux différents besoins de votre activité.</p>
         </div></div>
     </div>
+    <div id="container">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-3">
-                <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar">
-                    <li><h5 class="dark-text"><b>Catégories</b></h5></li>
-                    <li><a href="#section-1" class="active dark-text">Paiements cartes</a></li>
-                    <li><a href="#section-2" class="dark-text">Commerces</a></li>
-                    <li><a href="#section-3" class="dark-text">Commerces itinérants</a></li>
-                    <li><a href="#section-4" class="dark-text">Restaurants</a></li>
-                    <li><a href="#section-5" class="dark-text">Intégrateurs informatiques</a></li>
+                <div class="sidebar2">
+                <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar" role="navigation">
+                    {#<li><h5 class="dark-text"><b>Catégories</b></h5></li>#}
+                    <li class="active"><a href="#section-1" role="tab" data-toggle="tab">Paiements cartes</a></li>
+                    <li><a href="#section-2">Commerces</a></li>
+                    <li><a href="#section-3">Commerces itinérants</a></li>
+                    <li><a href="#section-4">Restaurants</a></li>
+                    <li><a href="#section-5">Intégrateurs informatiques</a></li>
                 </ul>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-9" data-spy="scroll" data-target="#sidebar">
+            <div class="col-xs-12 col-md-9 test" data-spy="scroll" data-target="#sidebar" style="position:relative;">
                 <h3 id="section-1" class="page-subtitle">Paiements cartes</h3>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="padding">
-                                <div class="thumbnail">
-                                    <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                    <h4 class="thumbnail-header">LOGO CIB</h4>
-                                    <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
-                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
-                                </div>
+
+                                    <div class="image" style="position: relative; overflow: hidden;">
+                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                        <div class="imageOverLayer"></div>
+                                        <div class="imageOverLayerButton">
+                                            <a href="#" class="btn white-btn">pdf</a>
+                                        </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                    <h4 class="dark-text">LOGO CIB</h4>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></span>
+                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    ...
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    {#<p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>#}
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -44,7 +76,7 @@
                             </div>
                         </div>
                     </div>
-                <hr>
+                {#<hr>#}
 
                 <h3 id="section-2" class="page-subtitle">Commerces</h3>
                 <div class="row">
@@ -79,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <hr>
+                {#<hr>#}
 
                 <h3 id="section-3" class="page-subtitle">Commerces itinérants</h3>
                 <div class="row">
@@ -94,7 +126,7 @@
                     </div>
                 </div>
                 </div>
-                <hr>
+                {#<hr>#}
 
                 <h3 id="section-4" class="page-subtitle">Restaurants</h3>
                 <div class="row">
@@ -153,7 +185,7 @@
                     </div>
                 </div>
                 </div>
-                <hr>
+                {#<hr>#}
 
                 <h3 id="section-5" class="page-subtitle">Intégrateurs informatiques</h3>
                 <div class="row">
@@ -181,5 +213,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 {% endblock %}
