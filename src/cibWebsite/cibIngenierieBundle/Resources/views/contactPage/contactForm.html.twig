@@ -41,7 +41,7 @@
 
 {{ form_rest(form) }} #}
 
-<form role="form">
+{#<form role="form">
     <div class="col-md-6">
          <div class="form-group">
              <label>{{ form_label(form.nom) }}</label>
@@ -74,4 +74,48 @@
             {{ form_widget(form.message) }}
         </div>
     </div>
-</form>
+</form>#}
+
+
+
+
+{#<form role="form">#}
+    <div class="col-md-12">
+        <div class="col-md-6">
+
+            <div class="col-sm-3 text-right small" style="padding-left: 0;">{{ form_label(form.prenom) }}</div>
+            <div class="col-sm-9">{{ form_widget(form.prenom) }}</div>
+
+            <div class="col-sm-3 text-right small" style="padding-left: 0;">{{ form_label(form.fonction) }}</div>
+            <div class="col-sm-9">{{ form_widget(form.fonction) }}</div>
+
+            <div class="col-sm-3 text-right small" style="padding-left: 0;">{{ form_label(form.telephone, 'Portable') }}</div>
+            <div class="col-sm-9">{{ form_widget(form.telephone) }}</div>
+
+        </div>
+        <div class="col-md-6">
+
+            <div class="col-sm-3 text-right small" style="padding-left: 0;">{{ form_label(form.nom) }}</div>
+            <div class="col-sm-9">{{ form_widget(form.nom) }}</div>
+
+            <div class="col-sm-3 text-right small" style="padding-left: 0;">{{ form_label(form.societie, 'Société') }}</div>
+            <div class="col-sm-9">{{ form_widget(form.societie) }}</div>
+
+            <div class="col-sm-3 text-right small" style="padding-left: 0;">{{ form_label(form.email) }}</div>
+            <div class="col-sm-9">{{ form_widget(form.email) }}</div>
+
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12">
+            <div class="col-sm-1 text-right small" style="width:12%;">{{ form_label(form.message) }}</div>
+            <div class="col-sm-10" style="width: 88%;">{{ form_widget(form.message, { 'attr': {'rows':'8'} } ) }}</div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-6"></div>
+        <div class="col-md-6 text-right" style="padding-right: 30px;">{{ form_widget(form.Envoyer, {'attr': {'class':'red-btn'}}) }}</div>
+      </div>
+    {{ form_rest(form) }}
+{#</form>#}
+

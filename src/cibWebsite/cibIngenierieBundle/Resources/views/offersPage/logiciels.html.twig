@@ -22,91 +22,223 @@
                 </ul>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-9 test" data-spy="scroll" data-target="#sidebar" style="position:relative;">
+            <div class="col-xs-12 col-md-9 containerBox" data-spy="scroll" data-target="#sidebar" style="position:relative;">
                 <h3 id="section-1" class="page-subtitle">Paiements cartes</h3>
                     <div class="row">
                         <div class="col-md-4">
                             <div class="padding">
-
-                                    <div class="image" style="position: relative; overflow: hidden;">
-                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                        <div class="imageOverLayer"></div>
-                                        <div class="imageOverLayerButton">
-                                            <a href="#" class="btn white-btn">pdf</a>
-                                        </div>
+                                <div class="image">
+                                    <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                    <div class="imageOverLayer"></div>
+                                    <div class="imageOverLayerButton">
+                                        <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
                                     </div>
+                                </div>
                                 <div class="row">
-                                    <div class="col-md-9">
+                                <div class="col-md-9 font">
                                     <h4 class="dark-text">LOGO CIB</h4>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <span class="glyphicon glyphicon-search" data-toggle="modal" data-target="#myModal"></span>
-                                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#logoModal"></span>
+                                    <div class="modal fade" id="logoModal" tabindex="-1" role="dialog" aria-labelledby="logoModalLabel" aria-hidden="true">
                                         <div class="modal-dialog">
                                             <div class="modal-content">
-                                                <div class="modal-header">
+                                                <div class="modal-header" style="border-bottom: 0;">
                                                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                                                    <h4 class="modal-title dark-text" id="logoModalLabel">Logo CIB</h4>
+                                                    <small> Catégorie: Paiements cartes</small>
                                                 </div>
                                                 <div class="modal-body">
-                                                    ...
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
+                                                    </div>
                                                 </div>
-                                                <div class="modal-footer">
+                                                <div class="modal-footer" style="border-top: 0;">
                                                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                                    </div>
-                                    {#<p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
-                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>#}
+                                </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="padding">
-                                <div class="thumbnail">
+                                <div class="image">
                                     <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                    <h4 class="thumbnail-header">CIB. TIME</h4>
-                                    <p>Plus besoin d’installer une badgeuse pour faire pointer vos salariés. CIB.TIME transforme votre TPE en une véritable pointeuse électronique.</p>
-                                    <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
-                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                    <div class="imageOverLayer"></div>
+                                    <div class="imageOverLayerButton">
+                                        <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-9">
+                                        <h4 class="dark-text">CIB. TIME</h4>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#cibtymModal"></span>
+                                        <div class="modal fade" id="cibtymModal" tabindex="-1" role="dialog" aria-labelledby="cibtymModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header" style="border-bottom: 0;">
+                                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                        <h4 class="modal-title dark-text" id="cibtymModalLabel">CIB. TIME</h4>
+                                                        <small> catégorie: Paiements cartes</small>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="col-md-4">
+                                                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                        </div>
+                                                        <div class="col-sm-8 dark-text">
+                                                            <p>Plus besoin d’installer une badgeuse pour faire pointer vos salariés. CIB.TIME transforme votre TPE en une véritable pointeuse électronique.<br>
+                                                            Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo ?</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer" style="border-top: 0;">
+                                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                        <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                {#<hr>#}
+
+                    {#<hr>#}
 
                 <h3 id="section-2" class="page-subtitle">Commerces</h3>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">FIDELE HIT</h4>
-                                <p>Pour faire revenir vos clients plus souvent, leur donner envie de consommer plus et vous permettre de mieux les connaitre, le plus facile c’est de les séduire avec la carte FIDELE HIT.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">FIDELE HIT</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#fideleModal"></span>
+                                    <div class="modal fade" id="fideleModal" tabindex="-1" role="dialog" aria-labelledby="fideleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="fideleModalLabel">FIDELE HIT</h4>
+                                                    <small> Catégorie: Commerces</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Pour faire revenir vos clients plus souvent, leur donner envie de consommer plus et vous permettre de mieux les connaitre, le plus facile c’est de les séduire avec la carte FIDELE HIT.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">MONEPASS</h4>
-                                <p>Pour simplifier le paiement de vos clients tout en les fidélisant, le plus simple c’est de leur fournir votre propre carte pré-chargée MONEPASS</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">MONEPASS</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#monepassModal"></span>
+                                    <div class="modal fade" id="monepassModal" tabindex="-1" role="dialog" aria-labelledby="monepassModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="monepassModalLabel">MONEPASS</h4>
+                                                    <small> Catégorie: Commerces</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Pour simplifier le paiement de vos clients tout en les fidélisant, le plus simple c’est de leur fournir votre propre carte pré-chargée MONEPASS</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIBELITE TACTILE</h4>
-                                <p>Pourquoi avoir d’un coté un TPE et de l’autre une CAISSE ENTREGISTREUSE TPV alors que tout peut être sur le même appareil. Avec CIBELITE CIBELTE plus d’erreur de paiement et les deux opérations se font en une fraction de seconde</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">CIBELITE TACTILE</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#cibliteModal"></span>
+                                    <div class="modal fade" id="cibliteModal" tabindex="-1" role="dialog" aria-labelledby="cibliteModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="cibliteModalLabel">CIBELITE TACTILE</h4>
+                                                    <small> Catégorie: Commerces</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Pourquoi avoir d’un coté un TPE et de l’autre une CAISSE ENTREGISTREUSE TPV alors que tout peut être sur le même appareil. Avec CIBELITE CIBELTE plus d’erreur de paiement et les deux opérations se font en une fraction de seconde</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -115,101 +247,357 @@
 
                 <h3 id="section-3" class="page-subtitle">Commerces itinérants</h3>
                 <div class="row">
-                <div class="col-md-3">
-                    <div class="padding">
-                        <div class="thumbnail">
-                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">CIBELITE VOLANTE INDIGENICO</h4>
-                            <p>Que vous soyez dans un avion, un train ou un camion, dans un chapiteau de supermarché ou en caisse d’appoint, CIBELITE VOLANTE traite vos ventes, vos stocks et vos paiements sans déplacer une montagne d’électronique.</p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                    <div class="col-md-4">
+                        <div class="padding">
+                            <div class="image">
+                                <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">CIBELITE VOLANTE INDIGENICO</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#cibliteVolanteModal"></span>
+                                    <div class="modal fade" id="cibliteVolanteModal" tabindex="-1" role="dialog" aria-labelledby="cibliteVolanteModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="cibliteVolanteModalLabel">CIBELITE VOLANTE INDIGENICO</h4>
+                                                    <small> Catégorie: Commerces itinérants</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Que vous soyez dans un avion, un train ou un camion, dans un chapiteau de supermarché ou en caisse d’appoint, CIBELITE VOLANTE traite vos ventes, vos stocks et vos paiements sans déplacer une montagne d’électronique.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
                 {#<hr>#}
 
                 <h3 id="section-4" class="page-subtitle">Restaurants</h3>
                 <div class="row">
-                <div class="col-md-3">
+                    <div class="col-md-4">
+                        <div class="padding">
+                            <div class="image">
+                                <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">LOGO RESTAURANT</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#logorestoModal"></span>
+                                    <div class="modal fade" id="logorestoModal" tabindex="-1" role="dialog" aria-labelledby="logorestoModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="logorestoModalLabel">LOGO RESTAURANT</h4>
+                                                    <small> Catégorie: Restaurants</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Faîtes apparaitre votre adresse et votre logo à chaque transaction de paiement et sortez à la demande une note de repas avec la TVA même si vous n’avez pas de caisse enregistreuse.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="padding">
+                            <div class="image">
+                                <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">RESTOPACK TACTILE</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#restoPackModal"></span>
+                                    <div class="modal fade" id="restoPackModal" tabindex="-1" role="dialog" aria-labelledby="restoPackModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="restoPackModalLabel">RESTOPACK TACTILE</h4>
+                                                    <small> Catégorie: Restaurants</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>La caisse restaurant VAE, TPV et TPE.<br>
+                                                        <b><i>+ Option TICKET RESTAURANT</i></b><br>
+                                                        Traitement des tickets restaurant avec émission d’avoir sur le rendu monnaie.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-4">
                     <div class="padding">
-                        <div class="thumbnail">
+                        <div class="image">
                             <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">LOGO RESTAURANT</h4>
-                            <p>Faîtes apparaitre votre adresse et votre logo à chaque transaction de paiement et sortez à la demande une note de repas avec la TVA même si vous n’avez pas de caisse enregistreuse.
-                            </p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                            <div class="imageOverLayer"></div>
+                            <div class="imageOverLayerButton">
+                                <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4 class="dark-text">CASHELITE</h4>
+                                <br>
+                            </div>
+                            <div class="col-md-3">
+                                <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#casheliteModal"></span>
+                                <div class="modal fade" id="casheliteModal" tabindex="-1" role="dialog" aria-labelledby="casheliteModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="border-bottom: 0;">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                <h4 class="modal-title dark-text" id="casheliteModalLabel">CASHELITE</h4>
+                                                <small> Catégorie: Restaurants</small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="col-md-4">
+                                                    <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                </div>
+                                                <div class="col-sm-8 dark-text">
+                                                    <p>Avec votre caisse actuelle, ne perdez plus de temps pour apporter la note et faire payer. CASHELITE reçoit par radio l’impression de vos notes à table, il ne vous reste plus qu’à encaisser sans revenir saisir vos règlements en caisse.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer" style="border-top: 0;">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <a href="#" class="btn red-btn">Fiche Produit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="padding">
-                        <div class="thumbnail">
+                        <div class="image">
                             <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">RESTOPACK TACTILE </h4>
-                            <p>La caisse restaurant VAE, TPV et TPE.</p>
-                            <b><i>+ Option TICKET RESTAURANT</i></b>
-                            <p>Traitement des tickets restaurant avec émission d’avoir sur le rendu monnaie.</p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                            <div class="imageOverLayer"></div>
+                            <div class="imageOverLayerButton">
+                                <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4 class="dark-text">CIBELITE RESTAURANT</h4>
+                            </div>
+                            <div class="col-md-3">
+                                <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#cibliteRestoModal"></span>
+                                <div class="modal fade" id="cibliteRestoModal" tabindex="-1" role="dialog" aria-labelledby="cibliteRestoModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="border-bottom: 0;">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                <h4 class="modal-title dark-text" id="cibliteRestoModalLabel">CIBELITE RESTAURANT</h4>
+                                                <small> Catégorie: Restaurants</small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="col-md-4">
+                                                    <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                </div>
+                                                <div class="col-sm-8 dark-text">
+                                                    <p>GRAND PRIX DE L’INNOVATION SIRHA 2007</p>
+                                                    <p>Un seul appareil pour prendre la commande à table, transmettre en cuisine les préparations de plats, faire payer et sortir la note à la table, vous allez en gagnez du temps et satisfaire des clients.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer" style="border-top: 0;">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <a href="#" class="btn red-btn">Fiche Produit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="padding">
-                        <div class="thumbnail">
+                        <div class="image">
                             <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">CASHELITE</h4>
-                            <p>Avec votre caisse actuelle, ne perdez plus de temps pour apporter la note et faire payer. CASHELITE reçoit par radio l’impression de vos notes à table, il ne vous reste plus qu’à encaisser sans revenir saisir vos règlements en caisse.</p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                            <div class="imageOverLayer"></div>
+                            <div class="imageOverLayerButton">
+                                <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <h4 class="dark-text">CIBELITE RESTAURANT COLLECTIF</h4>
+                            </div>
+                            <div class="col-md-3">
+                                <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#cibliteRestoCollectifModal"></span>
+                                <div class="modal fade" id="cibliteRestoCollectifModal" tabindex="-1" role="dialog" aria-labelledby="cibliteRestoCollectifModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="border-bottom: 0;">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                <h4 class="modal-title dark-text" id="cibliteRestoCollectifModalLabel">CIBELITE RESTAURANT COLLECTIF</h4>
+                                                <small> Catégorie: Restaurants</small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="col-md-4">
+                                                    <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                </div>
+                                                <div class="col-sm-8 dark-text">
+                                                    <p>Vendre des boissons et des plats, gérer des subventions et admissions sur des cartes convives contact et sans contact, CIBELITE RESTAURANT COLLECTIF transforme votre poste d’encaissement en le reliant aux automates de distribution et à des bornes de rechargement cartes à la vitesse d’un Expresso.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer" style="border-top: 0;">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <a href="#" class="btn red-btn">Fiche Produit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="padding">
-                        <div class="thumbnail">
-                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">CIBELITE RESTAURANT</h4>
-                            <p>GRAND PRIX DE L’INNOVATION SIRHA 2007</p>
-                            <p>Un seul appareil pour prendre la commande à table, transmettre en cuisine les préparations de plats, faire payer et sortir la note à la table, vous allez en gagnez du temps et satisfaire des clients.</p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="padding">
-                        <div class="thumbnail">
-                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">CIBELITE RESTAURANT COLLECTIF</h4>
-                            <p>Vendre des boissons et des plats, gérer des subventions et admissions sur des cartes convives contact et sans contact, CIBELITE RESTAURANT COLLECTIF transforme votre poste d’encaissement en le reliant aux automates de distribution et à des bornes de rechargement cartes à la vitesse d’un Expresso.</p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
-                        </div>
-                    </div>
-                </div>
-                </div>
+            </div>
                 {#<hr>#}
 
-                <h3 id="section-5" class="page-subtitle">Intégrateurs informatiques</h3>
+            <h3 id="section-5" class="page-subtitle">Intégrateurs informatiques</h3>
                 <div class="row">
-                <div class="col-md-3">
-                    <div class="padding">
-                        <div class="thumbnail">
-                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">PERIFELITE</h4>
-                            <p>Imprimer vos tickets de caisse sur le TPE, traiter le paiement ou faire une vente à distance ? PERIFELITE : transformez votre terminal CB en un véritable poste multifonctions de votre application informatique.</p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                    <div class="col-md-4">
+                        <div class="padding">
+                            <div class="image">
+                                <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">PERIFELITE</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#perifeliteModal"></span>
+                                    <div class="modal fade" id="perifeliteModal" tabindex="-1" role="dialog" aria-labelledby="perifeliteModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="perifeliteModalLabel">PERIFELITE</h4>
+                                                    <small> Catégorie: Intégrateurs informatiques</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Imprimer vos tickets de caisse sur le TPE, traiter le paiement ou faire une vente à distance ? PERIFELITE : transformez votre terminal CB en un véritable poste multifonctions de votre application informatique.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="padding">
-                        <div class="thumbnail">
-                            <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                            <h4 class="thumbnail-header">CASHELITE</h4>
-                            <p>Avec votre logiciel de caisse restaurant, faîtes gagner du temps à vos clients. CASHELITE reçoit sur le TPE par radio l’impression de vos notes de caisse à table, et solde directement les règlements de votre logiciel d’encaissement. (PDF CASHELITE)
-                            </p>
-                            <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                    <div class="col-md-4">
+                        <div class="padding">
+                            <div class="image">
+                                <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton">
+                                    <a href="#" class="btn whiteBorder-btn"><span class="glyphicon glyphicon-tasks"></span> &nbsp; Fiche produit</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h4 class="dark-text">CASHELITE</h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <span class="glyphicon glyphicon-search location" data-toggle="modal" data-target="#casheliteIntegrateursModal"></span>
+                                    <div class="modal fade" id="casheliteIntegrateursModal" tabindex="-1" role="dialog" aria-labelledby="casheliteIntegrateursModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="casheliteIntegrateursModaLabel">CASHELITE</h4>
+                                                    <small> Catégorie: Intégrateurs informatiques</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Avec votre logiciel de caisse restaurant, faîtes gagner du temps à vos clients. CASHELITE reçoit sur le TPE par radio l’impression de vos notes de caisse à table, et solde directement les règlements de votre logiciel d’encaissement.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

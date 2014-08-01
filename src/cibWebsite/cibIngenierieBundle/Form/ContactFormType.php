@@ -22,6 +22,7 @@ class ContactFormType extends AbstractType
             ->add('telephone')
             ->add('email', 'email')
             ->add('message', 'textarea')
+            ->add('Envoyer', 'submit')
         ;
     }
 

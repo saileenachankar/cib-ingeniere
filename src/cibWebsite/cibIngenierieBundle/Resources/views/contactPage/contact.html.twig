@@ -9,25 +9,29 @@
                 </div>
             </section>
         </div>
-        <div class="row">
+        <div class="row dark-text">
             <div class="col-md-4 col-sm-4">
-                <h3>Address:</h3>
-                <address>
-                    <h5>CIB-Ingenierie</h5>
-                    <p>7 Rue du 35�me R�giment d�Aviation
-                        <br>
-                        69500 BRON
-                    </p>
+                <h3><i>Address:</i></h3>
+                <address style="color: #807b76; font-weight: 600;">
+                    {#<h4>CIB-Ingenierie</h4>#}
+                    <div class="col-sm-1 col-md-1"><span class="glyphicon glyphicon-map-marker" style="margin-right: 10px;"></span></div>
+                    <div class="col-sm-10 col-md-11"> <p>7 Rue du 35ème Régiment d’Aviation</p>
+                    <p >69500 BRON</p></div>
+
                 </address>
-                <h3>Telephone:</h3>
-                <p>T�l : 33(0)4 72 13 59 00</p>
-                <p>Fax : 33(0)4 78 54 37 23</p>
+                &NonBreakingSpace;
+                <h3><i>Telephone:</i></h3>
+                <div class="col-md-12" style="color: #807b76; font-weight: 600;">
+                <p><span class="glyphicon glyphicon-earphone faFormat"></span>33(0)4 72 13 59 00</p>
+                <p><span class="glyphicon glyphicon-earphone" style="margin-right: 10px;"><sub style="font-size: 10px;">FAX</sub></span>33(0)4 78 54 37 23</p>
+                </div>
             </div>
             <div class="col-md-8 col-sm-8">
-                <h3>Contact form</h3>
-                <form action="{{ path('cibWebsitecibIngenierieBundle_contactpage') }}" method="post" {{ form_enctype(form) }}>
+                <h3><i>Contact form</i></h3>
+                <div class="col-md-12" style="background: rgba(255, 0, 0, 0.2); padding: 20px 0px;">
+                <form action="{{ path('cibWebsitecibIngenierieBundle_contactpage') }}" method="post" {{ form_enctype(form) }} class="contactForm">
                     {% include 'cibWebsitecibIngenierieBundle:contactPage:contactForm.html.twig' %}
-                </form>
+                </form></div>
             </div>
         </div>
     </div>

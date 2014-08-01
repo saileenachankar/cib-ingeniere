@@ -11,8 +11,9 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-3">
-                <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar">
-                    <li><h5 class="dark-text"><b>catégories</b></h5></li>
+                <div class="sidebar2">
+                <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar" role="navigation">
+                    {#<li><h5 class="dark-text"><b>catégories</b></h5></li>#}
                     <li class="active dropdown"><a href="#section-1" class="dropdown-toggle" data-toggle="dropdown">TPE</a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#" class="dark-text">TPE fixes ingenico</a></li>
@@ -27,68 +28,111 @@
                     <li><a href="#section-5" class="dark-text">Automate monetique</a></li>
                     <li><a href="#section-6" class="dark-text">Intégration monétique</a></li>
                 </ul>
+                </div>
             </div>
-            <div class="col-xs-12 col-md-9">
+            <div class="col-xs-12 col-md-9 containerBox" data-spy="scroll" data-target="#sidebar" style="position:relative;">
                 <h3 id="section-1" class="page-subtitle">TPE</h3>
                 <h4 class="page-title" style="font-size: 18px;">TPE fixes ingenico</h4>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">EFT 930 SEM</h4>
-                                <p>TPE d’entrée de gamme le plus économique du marché</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE d’entrée de gamme le plus économique du marché</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">EFT 930 SEM</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">ICT 220 EM</h4>
-                                <p>TPE entrée de gamme avec liaison Ethernet</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE entrée de gamme avec liaison Ethernet</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">ICT 220 EM</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">ICT220 EM GPRS</h4>
-                                <p>TPE d’entrée de gamme le plus communicant du marché avec liaison GPRS/IP et repli RTC</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE d’entrée de gamme le plus communicant du marché avec liaison GPRS/IP et repli RTC</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">ICT220 EM GPRS</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">ICT250 EM</h4>
-                                <p>Texte : la monétique étendue avec écran couleur</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Texte : la monétique étendue avec écran couleur</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">ICT250 EM</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">EFT SMART +</h4>
-                                <p>TPE avec la communication IP intégrée</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE avec la communication IP intégrée</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">EFT SMART +</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">EFT 30</h4>
-                                <p>TPE IP avec connectique très étendue</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE IP avec connectique très étendue</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">EFT 30</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,41 +141,69 @@
                     <h4 class="page-title" style="font-size: 18px;">TPE portables ingenico</h4>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">EFT 930</h4>
-                                <p>TPE portable, avec liaison RTC, Blutooth ou GPRS</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE portable, avec liaison RTC, Blutooth ou GPRS</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">EFT 930</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">IWL 250 </h4>
-                                <p>TPE portable Bluetooth, avec liaison RTC, IP ou GPRS et lecteur cartes sans contact</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE portable Bluetooth, avec liaison RTC, IP ou GPRS et lecteur cartes sans contact</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">IWL 250 </h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">IWL 280</h4>
-                                <p>TPE TACTILE portable Blutooth, avec liaison RTC, IP et GPRS et lecteur cartes sans contact</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>TPE TACTILE portable Blutooth, avec liaison RTC, IP et GPRS et lecteur cartes sans contact</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">IWL 280</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">IPA 280</h4>
-                                <p>Le premier TPE qui se transforme en PDA aux multiples facettes</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Le premier TPE qui se transforme en PDA aux multiples facettes</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">IPA 280</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -140,31 +212,52 @@
                     <h4 class="page-title" style="font-size: 18px;">TPE automate ingenico</h4>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">GAMME CAD 30 BASIC</h4>
-                                <p>L’entrée de gamme monétique sur automate</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>L’entrée de gamme monétique sur automate</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">GAMME CAD 30 BASIC</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">GAMME CAD 30 ETENDUE</h4>
-                                <p>La monétique automate aux connexions très étendues</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>La monétique automate aux connexions très étendues</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">GAMME CAD 30 ETENDUE</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">VENDING PASS</h4>
-                                <p>Paiement Mifare et PAY PASS sur automate.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Paiement Mifare et PAY PASS sur automate.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">VENDING PASS</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -173,41 +266,69 @@
                     <h4 class="page-title" style="font-size: 18px;">Peripherique monetique</h4>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">I2200 INGENICO</h4>
-                                <p>Imprimante de chèques avec contrôle, garantie chèque et image chèque.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Imprimante de chèques avec contrôle, garantie chèque et image chèque.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">I2200 INGENICO</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">ELC930 INGENICO</h4>
-                                <p>Imprimante de chèques multi-positions avec contrôle, garantie chèque et image chèque.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Imprimante de chèques multi-positions avec contrôle, garantie chèque et image chèque.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">ELC930 INGENICO</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">TELIUM PASS</h4>
-                                <p>Le plus simple pour ajouter le paiement sans contact à votre TPE.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Le plus simple pour ajouter le paiement sans contact à votre TPE.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">TELIUM PASS</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">P30 SANS CONTACT </h4>
-                                <p>4 fonctions en une : le paiement sans contact, le paiement carte à puce, la saisie du code PIN et l’affichage client.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>4 fonctions en une :<br> le paiement sans contact,<br> le paiement carte à puce,<br> la saisie du code PIN <br> l’affichage client.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">P30 SANS CONTACT </h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -218,65 +339,131 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIBELITE TACTILE (Nouveau)</h4>
-                                <p>CIBELITE TACTILE c’est un ECRAN/CLAVIER TACTILE tout « simplement » connecté à un TPE.</p>
-                                <p>Découvrez vite toutes les innovations que nous avons réussi à rassembler dans ce nouveau produit.</p>
-                                <p>C’est absolument incroyable</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>CIBELITE TACTILE c’est un ECRAN/CLAVIER TACTILE tout simplement connecté à un TPE.<br>
+                                    Découvrez vite toutes les innovations que nous avons réussi à rassembler dans ce nouveau produit.<br>
+                                    C’est absolument incroyable</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CIBELITE TACTILE <sup style="background: #ffff00; color: #ff0000; padding: 2px; font-weight: 800;">Nouveau</sup></h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIBELITE PC</h4>
-                                <p>CIBELITE PC est le logiciel back office de gestion commercial CIB permettant de gérer des caisses CIBELITE et des automates à distance.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>CIBELITE PC est le logiciel back office de gestion commercial CIB permettant de gérer des caisses CIBELITE et des automates à distance.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CIBELITE PC</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIBELITE VOLANTE</h4>
-                                <p>Que vous soyez dans un avion, un train ou un camion, dans un chapiteau de supermarché ou en caisse d’appoint, CIBELITE VOLANTE traite vos ventes, vos stocks et vos paiements sans déplacer une montagne d’électronique.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Que vous soyez dans un avion, un train ou un camion, dans un chapiteau de supermarché ou en caisse d’appoint, CIBELITE VOLANTE traite vos ventes, vos stocks et vos paiements sans déplacer une montagne d’électronique.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CIBELITE VOLANTE</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">RESTOPACK TACTILE</h4>
-                                <p>Logiciel CAISSE spéciale VAE avec en option le traitement et le contrôle des tickets restaurant.</p>
-                                <p><i>OPTION TICKET RESTAURANT</i></p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Logiciel CAISSE spéciale VAE avec en option le traitement et le contrôle des tickets restaurant.</p>
+                                    <p><i>OPTION TICKET RESTAURANT</i></p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">RESTOPACK TACTILE</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIBELITE RESTAURANT</h4>
-                                <p>GRAND PRIX DE L’INNOVATION SIRHA 2007</p>
-                                <p>Un seul appareil pour prendre la commande à table, transmettre en cuisine les préparations de plats, faire payer et sortir la note à la table, vous allez en gagner du temps et satisfaire des clients.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>GRAND PRIX DE L’INNOVATION SIRHA 2007</p>
+                                    <p>Un seul appareil pour prendre la commande à table, transmettre en cuisine les préparations de plats, faire payer et sortir la note à la table, vous allez en gagner du temps et satisfaire des clients.
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CIBELITE RESTAURANT</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIBELITE RESTAURANT COLLECTIF</h4>
-                                <p>Vendre des boissons et des plats, gérer des subventions et admissions sur des cartes convives contact et sans contact, CIBELITE RESTAURANT COLLECTIF transforme votre poste d’encaissement en le reliant aux automates de distribution et à des bornes de rechargement cartes à la vitesse d’un Expresso.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Vendre des boissons et des plats, gérer des subventions et admissions sur des cartes convives contact et sans contact, CIBELITE RESTAURANT COLLECTIF transforme votre poste d’encaissement en le reliant aux automates de </p>
+                                    <p class="text-right" style="cursor: pointer;" data-toggle="modal" data-target="#restoCollectifModal"><i>....en saviour plus</i></p>
+                                </div>
+                                    <div class="modal fade" id="restoCollectifModal" tabindex="-1" role="dialog" aria-labelledby="restoCollectifModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" style="border-bottom: 0;">
+                                                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                    <h4 class="modal-title dark-text" id="restoCollectifModalLabel">CIBELITE RESTAURANT COLLECTIF</h4>
+                                                    <small> Catégorie: Caisse enregistreuse TPV</small>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="col-md-4">
+                                                        <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                    </div>
+                                                    <div class="col-sm-8 dark-text">
+                                                        <p>Vendre des boissons et des plats, gérer des subventions et admissions sur des cartes convives contact et sans contact, CIBELITE RESTAURANT COLLECTIF transforme votre poste d’encaissement en le reliant aux automates de distribution et à des bornes de rechargement cartes à la vitesse d’un Expresso.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer" style="border-top: 0;">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                    <a href="#" class="btn red-btn">Fiche Produit</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CIBELITE RESTAURANT COLLECTIF</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -287,21 +474,35 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                    <h4 class="thumbnail-header">FIDELE HIT</h5>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
                                     <p>Pour faire revenir vos clients plus souvent, leur donner envie de consommer plus et vous permettre de mieux les connaitre, le plus facile c’est de les séduire avec la carte FIDELE HIT.</p>
+                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">FIDELE HIT</h4>
                                     <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">MONEPASS</h5>
-                                <p>Pour simplifier le paiement de vos clients tout en les fidélisant, le plus simple c’est de leur fournir votre propre carte pré-chargée MONEPASS.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Pour simplifier le paiement de vos clients tout en les fidélisant, le plus simple c’est de leur fournir votre propre carte pré-chargée MONEPASS.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">MONEPASS</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -312,33 +513,54 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">LOGO CIB</h5>
-                                <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo.
-                                </p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">LOGO CIB</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">LOGO RESTAURANT</h5>
-                                <p>Faites apparaitre votre adresse et votre logo à chaque transaction de paiement et sortez à la demande une note de repas avec la TVA même si vous n’avez pas de caisse enregistreuse.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Faites apparaitre votre adresse et votre logo à chaque transaction de paiement et sortez à la demande une note de repas avec la TVA même si vous n’avez pas de caisse enregistreuse.</p>
+                                 </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">LOGO RESTAURANT</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CIB. TIME</h5>
-                                <p>Plus besoin d’installer une badgeuse pour faire pointer vos salariés. CIB.TIME transforme votre TPE en une véritable pointeuse électronique.
-                                Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo?</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Plus besoin d’installer une badgeuse pour faire pointer vos salariés. CIB.TIME transforme votre TPE en une véritable pointeuse électronique.
+                                        Sur les tickets de paiement cartes bancaires et cartes privatives quoi de plus professionnel que de faire apparaitre votre adresse et votre logo?</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CIB. TIME</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -349,11 +571,18 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">ELITE 24/24</h5>
-                                <p>Pour ne plus perdre de temps à recharger les cartes restaurant la borne de rechargement CIB INGENIERIE permet de recharger avec la carte bancaire et des billets des cartes MONEPASS ou des cartes privées à puce contact et sans contact.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Pour ne plus perdre de temps à recharger les cartes restaurant la borne de rechargement CIB INGENIERIE permet de recharger avec la carte bancaire et des billets des cartes MONEPASS ou des cartes privées à puce contact et sans contact.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">ELITE 24/24</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -364,21 +593,59 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">PERIFELITE</h5>
-                                <p>Imprimer vos tickets de caisse sur le TPE, faire une lecture écriture dans une carte à puce, traiter le paiement ou faire une vente à distance et bien d’autres choses simplement avec des commande ESC sur la liaison série, PERIFELITE transformez votre terminal CB en un véritable poste multifonctions de votre application informatique.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Imprimer vos tickets de caisse sur le TPE, faire une lecture écriture dans une carte à puce, traiter le paiement ou faire une vente à distance et bien d’autres choses simplement avec des commande ESC sur la liaison série, PERIFELITE transformez</p>
+                                    <p class="text-right" style="cursor: pointer;" data-toggle="modal" data-target="#restoCollectifModal"><i>....en saviour plus</i></p>
+                                </div>
+                                <div class="modal fade" id="perifeliteModal" tabindex="-1" role="dialog" aria-labelledby="perifeliteModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="border-bottom: 0;">
+                                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                                <h4 class="modal-title dark-text" id="perifeliteModalLabel">Logo CIB</h4>
+                                                <small> Catégorie: Paiements cartes</small>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="col-md-4">
+                                                    <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
+                                                </div>
+                                                <div class="col-sm-8 dark-text">
+                                                    <p>Imprimer vos tickets de caisse sur le TPE, faire une lecture écriture dans une carte à puce, traiter le paiement ou faire une vente à distance et bien d’autres choses simplement avec des commande ESC sur la liaison série, PERIFELITE transformez votre terminal CB en un véritable poste multifonctions de votre application informatique.</p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer" style="border-top: 0;">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                <a href="#" class="btn red-btn">Fiche Produit</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">PERIFELITE</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="padding">
-                            <div class="thumbnail">
+                            <div class="image">
                                 <img src="{{ asset('image/logoD.png') }}" class="img-responsive img-rounded img-thumbnail">
-                                <h4 class="thumbnail-header">CASHELITE</h5>
-                                <p>Avec votre logiciel de caisse restaurant, faîtes gagner du temps à vos clients. CASHELITE reçoit sur le TPE par radio l’impression de vos notes de caisse directement à la table et solde instantanément les règlements de votre logiciel d’encaissement.</p>
-                                <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                <div class="imageOverLayer"></div>
+                                <div class="imageOverLayerButton whiteText">
+                                    <p>Avec votre logiciel de caisse restaurant, faîtes gagner du temps à vos clients. CASHELITE reçoit sur le TPE par radio l’impression de vos notes de caisse directement à la table et solde instantanément les règlements de votre logiciel d’encaissement.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h4 class="dark-text">CASHELITE</h4>
+                                    <p><a href="#" class="btn red-btn">Fiche Produit</a></p>
+                                </div>
                             </div>
                         </div>
                     </div>
