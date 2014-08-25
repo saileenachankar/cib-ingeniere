@@ -8,13 +8,13 @@
         <div class="col-md-12">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
+       <ol class="carousel-indicators">
+           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+       </ol>
 
-                    <!-- Wrapper for slides -->
+           <!-- Wrapper for slides -->
                 <center>
                 <div class="carousel-inner">
                     <div class="item active">
@@ -25,7 +25,7 @@
                         </div>
                         <p class="carouselText animated bounceInRight delay">text</p>
                         </div>#}
-                        <div class="caption animated fadeIn">
+                        <div class="caption animated fadeIn"> {#animated fadeIn#}
                             <p class="title">testing it.</p>
                             <hr>
                             <p class="description"> description text</p>
@@ -51,7 +51,7 @@
                 </center>
 
                 <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
                 </a>
                 <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
@@ -128,9 +128,9 @@
     <div class="container">#}
             <div class="row">
 	            <div class="col-md-6">
-	                <div class="thumbnail wrapper">
-		                <h3 class="page-title text-center red-bottom-border" style="margin-bottom: 30px;">Nos Metiers</h3>
-                        <div class="row" style="margin-bottom: 0px;">
+	                <div class="thumbnail "> {#wrapper#}
+		                <h3 class="page-title blackBottomBorder" style="margin-bottom: 30px;">Nos Metiers</h3>
+                        <div class="row" style="margin-bottom: 0;">
                         <div class="col-sm-7">
                             <img class="well" id="imageBox" src="{{ asset('image/logo-small.png') }}">
                         </div>
@@ -150,8 +150,8 @@
 	                </div>
 	            </div>
 	            <div class="col-md-6">
-	                <div class="thumbnail wrapper">
-		                <h3 class="page-title text-center red-bottom-border" style="margin-bottom: 15px;">Nos Expertise</h3>
+	                <div class="thumbnail "> {#wrapper#}
+		                <h3 class="page-title blackBottomBorder" style="margin-bottom: 15px;">Nos Expertise</h3> {#text-center red-bottom-border#}
 
                         <ul class="arrow">
                             <li>Logiciels de monetique et d'encaissement.</li>
@@ -168,7 +168,7 @@
 </div>#}
     </div>
 
-    {% block javascripts %}
+{#{% block javascripts %}
         <script type="text/javascript">
 
         function showImage(id)
@@ -201,8 +201,8 @@
                     break;
             }
         }
-        </script>
+       </script>
 
-    {% endblock %}
+         {% endblock %} #}
 
 {% endblock %}
