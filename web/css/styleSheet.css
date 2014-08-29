@@ -477,3 +477,28 @@ form.contactForm textarea {
     /*transform:scale(1.5);*/
     transition: all 0.2s ease-in-out;
 }
+
+@-webkit-keyframes fadeText{
+    0%{opacity:0;}
+    15%{opacity:0.1;}
+    30%{opacity:1;}
+    40%{opacity:1;}
+    60%{opacity:0;}
+    85%{opacity:0;}
+    100%{opacity:0;}
+}
+#animate-text1 {
+    display:inline;
+    position:relative;
+    top:0px;
+    -webkit-animation:fadeText 20s infinite;
+
+}
+#animate-text2 {
+    opacity:0;
+    display:inline;
+    position:relative;
+    margin-left:-13.4em;
+    -webkit-animation:fadeText 20s infinite;
+    -webkit-animation-delay:11s;
+}
