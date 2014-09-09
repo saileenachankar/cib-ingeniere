@@ -17,15 +17,30 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     
-    <body>
+    <body {% block content %} {% endblock %}>
     <div class="page-header ">
-    	{#<div class="topbar" style="z-index=12; padding:4px 0px; margin-left:4em;">
-    		<div class="container-fluid">
+    	<div class="topbar" style="background: #000000;"> {#style="z-index=12; padding:4px 0px; margin-left:4em;"#}
+    		<div class="container" style="margin-bottom: 0;">
     		
-				<dfn class="pull-right dark-text" id="site-header"><strong>LE CREATEUR DE LOGICIELS SUR TERMINAUX DE PAIEMENT ELECTRONIQUE</strong></dfn>
-			
-			</div>			
-		</div>#}
+				<p class="pull-right" style="margin: 0;"> <a href="{{ path('cibWebsitecibIngenierieBundle_signInpage') }}" data-toggle="model" data-target="#signIn" id="site-header"><span class="glyphicon glyphicon-user" style="margin-right: 0.5em;"></span>Connectez vous</a></p> {#id="site-header"#}
+                <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="signInLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header" style="border-bottom: 0;">
+                                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                <h4 class="modal-title dark-text" id="signInLabel">MONEPASS</h4>
+                            </div>
+                            <div class="modal-body">
+
+                            </div>
+                            <div class="modal-footer" style="border-top: 0;">
+
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+			</div>
+		</div>
     	<nav class="navbar navbar-default" role="navigation">
   			<div class="container" style="padding-right:0; margin-bottom: 1px;">
     			<div class="navbar-header">
@@ -35,39 +50,39 @@
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
       				</button>
-      				<a class="navbar-brand" href="{{ path('cibWebsitecibIngenierieBundle_homepage') }}">{#<img src="{{ asset('image/logo-small.png') }}"  />#}<img src="{{ asset('image/333.png') }}"  />
-                    {#<p style="font-family: Garamond, serif;
+      				<a class="navbar-brand" href="{{ path('cibWebsitecibIngenierieBundle_homepage') }}"><img src="{{ asset('image/logo-cibWhite.png') }}"  />{#<img src="{{ asset('image/333.png') }}"  />#}
+                   {# <p style="font-family: Garamond, serif;
 line-height: 1em;
 color: #fff9d6;
 font-weight:bold; transform:scale(1,2);
 font-size: 33px; padding: 10px 7px 5px 5px; background: #ff0000;clear: both;
 text-shadow:0px 0px 0 rgb(207,207,207),1px 1px 0 rgb(183,183,183), 2px 2px 0 rgb(160,160,160),3px 3px 2px rgba(0,0,0,0.2),3px 3px 1px rgba(0,0,0,0.5),0px 0px 2px rgba(0,0,0,.2);">CIB</p><p style="margin-top:25px; font-family: Arial, sans-serif;
 line-height: 1em;
-color: #0a000a;
+color: #ffffff;
 font-weight:bold;
 font-style:italic;
 font-size: 12px;
-text-shadow:0px 0px 0 rgb(-137,-147,-137), 0px 1px 0 rgb(-229,-239,-229),0px 2px 1px rgba(0,0,0,0.4),0px 2px 1px rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);">INGENIERIE</p>
-                   #} </a> {#style="margin-right:10px;"#}
+text-shadow:0px 0px 0 rgb(137,147,137), 0px 1px 0 rgb(229,239,229),0px 2px 1px rgba(147,147,147,0.5),0px 2px 1px rgba(180,180,180,0.8),0px 0px 1px rgba(0,0,0,.2);">INGENIERIE</p>#}
+                    </a> {#style="margin-right:10px;"#}
 
     			</div>
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav"> {#id="menu"#}
-        <li class="active"><a href="{{ path('cibWebsitecibIngenierieBundle_homepage') }}">Home</a></li>
+        <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_homepage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_homepage') }}">Home</a></li>
 
-        <li><a href="{{ path('cibWebsitecibIngenierieBundle_aboutpage') }}">Societe</a></li>
+        <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_aboutpage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_aboutpage') }}">Societe</a></li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Offres <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}">Logiciels</a></li>
-            <li><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}">Materiels</a></li>
-            <li><a href="{{ path('cibWebsitecibIngenierieBundle_servicespage') }}">Services</a></li>
-            <li><a href="{{ path('cibWebsitecibIngenierieBundle_financementpage') }}">Financement</a></li>
+            <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_logicielspage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}">Logiciels</a></li>
+            <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_materielspage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}">Materiels</a></li>
+            <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_servicespage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_servicespage') }}">Services</a></li>
+            <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_financementpage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_financementpage') }}">Financement</a></li>
           </ul>
         </li>
 
-        <li><a href="{{ path('cibWebsitecibIngenierieBundle_contactpage') }}">Contact</a></li>
+        <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_contactpage') ? ' class="active"' }}><a href="{{ path('cibWebsitecibIngenierieBundle_contactpage') }}">Contact</a></li>
       </ul>
       
   
@@ -129,6 +144,7 @@ text-shadow:0px 0px 0 rgb(-137,-147,-137), 0px 1px 0 rgb(-229,-239,-229),0px 2px
         {% block javascripts %}
 
         	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="{{ asset('bootstrap-3.2.0/js/bootstrap.js') }}" type="text/javascript"></script>
         	<script src="{{ asset('bootstrap-3.2.0/js/bootstrap.min.js') }}" type="text/javascript"></script>
         	<script src="{{ asset('bootstrap-3.2.0/js/bootstrap-hover-dropdown.js') }}" type="text/javascript"></script>
         {% endblock %}

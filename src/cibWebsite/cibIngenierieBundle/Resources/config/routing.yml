@@ -4,6 +4,12 @@ cibWebsitecibIngenierieBundle_homepage:
     requirements:
         _method:  GET
 
+cibWebsitecibIngenierieBundle_signInpage:
+    pattern:  /signIn
+    defaults: { _controller: "cibWebsitecibIngenierieBundle:signInPage:signIn" }
+    requirements:
+        _method:  GET|POST
+
 
 cibWebsitecibIngenierieBundle_aboutpage:
     pattern:  /about

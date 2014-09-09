@@ -7,14 +7,14 @@
             <p class="col-md-offset-1 col-md-10">De nombreuses années d’expérience de la monétique nous ont permis de sélectionner une gamme de matériels monétiques (caisses enregistreuses, TPE, automates) et de périphériques (imprimantes, lecteurs de cartes...) parfaitement adaptés par leurs qualités à notre environnement logiciel afin de vous apporter le maximum de performance.</p>
         </div></div>
     </div>
-    <div id="container">
+    <div id="container" data-spy="scroll" data-target="#sidebar">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-3">
                 <div class="sidebar2">
                 <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar" role="navigation">
                     {#<li><h5 class="dark-text"><b>catégories</b></h5></li>#}
-                    <li class="active dropdown"><a href="#section-1" class="dropdown-toggle" data-toggle="dropdown">TPE</a>
+                    <li class="active dropdown" {{ (app.request.attributes.get('_route') == '#section-1') ? ' class="active"' }}><a href="#section-1" class="dropdown-toggle" data-toggle="dropdown">TPE</a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#" class="dark-text">TPE fixes ingenico</a></li>
                             <li><a href="#" class="dark-text">TPE portables ingenico</a></li>
@@ -22,11 +22,11 @@
                             <li><a href="#" class="dark-text">Peripherique monetique</a></li>
                         </ul>
                     </li>
-                    <li><a href="#section-2" class="dark-text">Caisse enregistreuse TPV</a></li>
-                    <li><a href="#section-3" class="dark-text">Carte de fidélité</a></li>
-                    <li><a href="#section-4" class="dark-text">Edition logo sur TPE</a></li>
-                    <li><a href="#section-5" class="dark-text">Automate monetique</a></li>
-                    <li><a href="#section-6" class="dark-text">Intégration monétique</a></li>
+                    <li {{ (app.request.attributes.get('_route') == 'cibWebsitecibIngenierieBundle_materielspage#section-2') ? ' class="active"' }} class="dark-text"><a href="#section-2" >Caisse enregistreuse TPV</a></li>
+                    <li {{ (app.request.attributes.get('_route') == '#section-3') ? ' class="active"' }} class="dark-text"><a href="#section-3" >Carte de fidélité</a></li>
+                    <li class="dark-text"><a href="#section-4" >Edition logo sur TPE</a></li>
+                    <li class="dark-text"><a href="#section-5" >Automate monetique</a></li>
+                    <li class="dark-text"><a href="#section-6" >Intégration monétique</a></li>
                 </ul>
                 </div>
             </div>

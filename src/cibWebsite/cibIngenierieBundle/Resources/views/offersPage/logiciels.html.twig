@@ -1,5 +1,5 @@
 {% extends 'base.html.twig' %}
-
+{% block content %} data-spy="scroll" data-target="#sidebar" {% endblock %}
 {% block body %}
     <div class="container">
         <div class="row text-center">
@@ -7,14 +7,14 @@
             <p class="col-md-offset-1 col-md-10">Du plus simple au plus sophistiqué, les logiciels de CIB INGENIERIE vous apportent une solution entièrement paramétrable pour répondre aux différents besoins de votre activité.</p>
         </div></div>
     </div>
-    <div id="container">
+    <div id="container" >
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-3">
-                <div class="sidebar2">
-                <ul class="nav nav-stacked" data-spy="affix" data-offset-top="25" id="sidebar" role="navigation">
+                <div   class="sidebar2">
+                <ul class="nav nav-tabs affix-top" data-spy="affix" data-offset-top="125" id="sidebar">{#id="sidebar"#}
                     {#<li><h5 class="dark-text"><b>Catégories</b></h5></li>#}
-                    <li class="active"><a href="#section-1" role="tab" data-toggle="tab">Paiements cartes</a></li>
+                    <li class="active"><a href="#section-1" >Paiements cartes</a></li>{#role="tab" data-toggle="tab"#}
                     <li><a href="#section-2">Commerces</a></li>
                     <li><a href="#section-3">Commerces itinérants</a></li>
                     <li><a href="#section-4">Restaurants</a></li>
@@ -22,7 +22,7 @@
                 </ul>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-9 containerBox" data-spy="scroll" data-target="#sidebar" style="position:relative;">
+            <div class="col-xs-12 col-md-9 containerBox"  id="myContent" data-spy="scroll" data-target="#sidebar2" style="position:relative;"> {#data-spy="scroll" data-target="#sidebar"#}
                 <h3 id="section-1" class="page-subtitle">Paiements cartes</h3>
                     <div class="row">
                         <div class="col-md-4">

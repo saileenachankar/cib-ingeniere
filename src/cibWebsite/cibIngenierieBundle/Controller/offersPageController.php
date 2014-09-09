@@ -12,7 +12,7 @@ class offersPageController extends Controller
 
     public function materielsAction()
     {
-        return $this->render('cibWebsitecibIngenierieBundle:offersPage:materiels.html.twig');
+        return $this->render('cibWebsitecibIngenierieBundle:offersPage:materielsnew.html.twig');
     }
 
     public function servicesAction()

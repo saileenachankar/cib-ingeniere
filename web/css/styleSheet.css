@@ -34,7 +34,7 @@
 }*/
 
 #site-header {
-	background-color: #ff0000;
+	/*background-color: #ff0000;
 	background: -webkit-linear-gradient(left, rgba(225, 230, 230, 0),
 		rgba(225, 0, 0, 1));
 	background: -o-linear-gradient(right, rgba(225, 0, 0, 1),
@@ -42,7 +42,9 @@
 	background: -moz-linear-gradient(right, rgba(225, 0, 0, 1),
 		rgba(225, 230, 230, 0));
 	background: linear-gradient(to right, rgba(225, 230, 230, 0),
-		rgba(225, 0, 0, 1));
+		rgba(225, 0, 0, 1));*/
+    color: #cfcfcf;
+    padding: 0px 20px;
 }
 
 .thumbnail-viewer {
@@ -165,10 +167,10 @@
     }
 }
 
-/*#sidebar li.active {
+#sidebar li.active {
     border:0 #eee solid;
     border-right-width:4px;
-}*/
+}
 
 .page-title {
     /*font-family: "Lucida Console", Monaco, monospace;*/
@@ -229,7 +231,7 @@
 
 #container {
     text-align: left;
-    background: #f5f5f5;
+   /* background: #f5f5f5;*/
     padding:45px 0 70px;
 }
 
@@ -502,3 +504,102 @@ form.contactForm textarea {
     -webkit-animation:fadeText 20s infinite;
     -webkit-animation-delay:11s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /*------------to show--------------------------*/
+.box2 {
+    padding: 0px 10px;
+}
+
+
+.logoBoxHomePage {
+    font-size: 40px; line-height: 100px; /*color: #e91b23;*/ height: 80px; width: 80px;
+    border: 1px solid transparent; border-radius: 50%; margin-left: 35%;
+}
+
+.logoBoxHomePage .logoBoxInnerHomePage {
+    height: 80px; width: 80px;
+    border: 1px solid transparent; border-radius: 50%;
+}
+
+
+.box2 :hover> .logoBoxHomePage {
+    background: #e91b23;
+    color: #ffffff;
+}
+
+
+.btnTrial {
+    color:#ffffff;
+    background-color:#888888;
+    border-color:#888888;
+    /*box-shadow:0px 2px 10px #ff0000;*/
+    border-bottom: 4px solid #cccccc;
+}
+
+.box2 .btnTrial:hover {
+    background: #e91b23;
+    color: #ffffff;
+    border-color: #ff6666;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+#sidebarTrial.nav-tabs {
+    position: relative;
+    width: 140px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+#sidebarTrial.nav-tabs li {
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+#sidebarTrial.nav-tabs li:first-child {
+    border-top: none;
+}
+#sidebarTrial.nav-tabs li a {
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+#sidebarTrial.nav-tabs li.active a, ul.nav-tabs li.active a:hover {
+    color: #fff;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+}
+#sidebarTrial.nav-tabs li:first-child a {
+    border-radius: 4px 4px 0 0;
+}
+#sidebarTrial.nav-tabs li:last-child a {
+    border-radius: 0 0 4px 4px;
+}
+#sidebarTrial.nav-tabs.affix {
+    top: 10px; /* Set the top position of pinned element
+}
+
+*/

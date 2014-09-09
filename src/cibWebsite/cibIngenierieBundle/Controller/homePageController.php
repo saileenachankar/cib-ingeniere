@@ -8,6 +8,6 @@ class homePageController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('cibWebsitecibIngenierieBundle:homePage:index.html.twig');
+        return $this->render('cibWebsitecibIngenierieBundle:homePage:index2.html.twig');
     }
 }
