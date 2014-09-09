@@ -26,31 +26,84 @@
       <file leaf-file-name="materiels.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="650" column="26" selection-start="20096" selection-end="41965" vertical-scroll-proportion="-8.039216" vertical-offset="10640" max-vertical-offset="11254">
+            <state line="650" column="26" selection-start="20096" selection-end="41965" vertical-scroll-proportion="-15.769231" vertical-offset="10640" max-vertical-offset="11254">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materielsnew.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="materielsnew.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="506" column="24" selection-start="25323" selection-end="25323" vertical-scroll-proportion="0.521978" vertical-offset="8317" max-vertical-offset="11866">
+            <state line="12" column="36" selection-start="789" selection-end="789" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="11866">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="37" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18545455" vertical-offset="0" max-vertical-offset="731">
               <folding>
-                <element signature="e#2457#2483#0" expanded="true" />
-                <element signature="e#2578#2602#0" expanded="true" />
-                <element signature="e#4460#4484#0" expanded="true" />
-                <element signature="e#7732#7756#0" expanded="true" />
-                <element signature="e#10419#10443#0" expanded="true" />
-                <element signature="e#14279#14303#0" expanded="true" />
-                <element signature="e#18225#18301#0" expanded="true" />
-                <element signature="e#22792#22816#0" expanded="true" />
-                <element signature="e#23255#23280#0" expanded="true" />
-                <element signature="e#24565#24587#0" expanded="true" />
-                <element signature="e#31951#31975#0" expanded="true" />
-                <element signature="e#32406#32431#0" expanded="true" />
-                <element signature="e#33720#33742#0" expanded="true" />
+                <element signature="e#543#559#0" expanded="true" />
+                <element signature="e#777#818#0" expanded="true" />
+                <element signature="e#950#972#0" expanded="true" />
+                <element signature="e#1307#1348#0" expanded="true" />
+                <element signature="e#1513#1540#0" expanded="true" />
+                <element signature="e#1546#1570#0" expanded="true" />
+                <element signature="e#1780#1807#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="237" column="14" selection-start="13555" selection-end="13555" vertical-scroll-proportion="-83.5" vertical-offset="1858" max-vertical-offset="4131">
+              <folding>
+                <element signature="e#984#1020#0" expanded="true" />
+                <element signature="e#1909#1945#0" expanded="true" />
+                <element signature="e#2437#2473#0" expanded="true" />
+                <element signature="e#3707#3799#0" expanded="true" />
+                <element signature="e#3817#3840#0" expanded="true" />
+                <element signature="e#4423#4461#0" expanded="true" />
+                <element signature="e#4654#4677#0" expanded="true" />
+                <element signature="e#4736#4759#0" expanded="true" />
+                <element signature="e#5661#5699#0" expanded="true" />
+                <element signature="e#5892#5915#0" expanded="true" />
+                <element signature="e#5974#5997#0" expanded="true" />
+                <element signature="e#6902#6940#0" expanded="true" />
+                <element signature="e#7133#7156#0" expanded="true" />
+                <element signature="e#7215#7238#0" expanded="true" />
+                <element signature="e#8098#8136#0" expanded="true" />
+                <element signature="e#8329#8352#0" expanded="true" />
+                <element signature="e#8411#8434#0" expanded="true" />
+                <element signature="e#9382#9410#0" expanded="true" />
+                <element signature="e#9465#9490#0" expanded="true" />
+                <element signature="e#11102#11130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signInPageController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="82" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-13.5" vertical-offset="91" max-vertical-offset="663">
+              <folding>
+                <element signature="e#60#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homePageController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="74" selection-start="280" selection-end="280" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,7 +111,7 @@
       <file leaf-file-name="offersPageController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/offersPageController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="2" selection-start="462" selection-end="462" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="561">
+            <state line="17" column="2" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
@@ -104,10 +157,6 @@
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -125,21 +174,21 @@
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/contactPageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/services.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index2.html.twig" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/aboutPage/about.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/web/css/styleSheet.css" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/offersPageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig" />
       </list>
     </option>
   </component>
@@ -181,7 +230,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -850,6 +898,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -935,24 +984,24 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5157233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5157233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -971,9 +1020,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1001,9 +1050,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="0" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.0" vertical-offset="3198" max-vertical-offset="3808">
-          <folding />
-        </state>
+        <state line="208" column="0" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.0" vertical-offset="3198" max-vertical-offset="3808" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
@@ -1013,23 +1060,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="57" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2159">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#address#0;n#div#2;n#div#0;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#address#0;n#div#2;n#div#0;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#sub#0;n#span#0;n#p#3;n#address#0;n#div#2;n#div#0;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#center#0;n#section#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="57" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2159" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/public/css/style.css">
@@ -1039,9 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="1" selection-start="3886" selection-end="3886" vertical-scroll-proportion="0.0" vertical-offset="3259" max-vertical-offset="3808">
-          <folding />
-        </state>
+        <state line="215" column="1" selection-start="3886" selection-end="3886" vertical-scroll-proportion="0.0" vertical-offset="3259" max-vertical-offset="3808" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig">
@@ -1133,16 +1162,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index2.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="26" selection-start="7565" selection-end="7565" vertical-scroll-proportion="3.8636363" vertical-offset="0" max-vertical-offset="4131">
-          <folding />
-        </state>
+        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/aboutPage/about.html.twig">
@@ -1154,81 +1174,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/js/bootstrap-hover-dropdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="264" selection-end="264" vertical-scroll-proportion="-2.2109928" vertical-offset="1383" max-vertical-offset="1972">
-          <folding />
-        </state>
+        <state line="8" column="2" selection-start="264" selection-end="264" vertical-scroll-proportion="-2.2109928" vertical-offset="1383" max-vertical-offset="1972" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04537205" vertical-offset="25" max-vertical-offset="36040">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04537205" vertical-offset="25" max-vertical-offset="36040" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="189" selection-end="189" vertical-scroll-proportion="0.123411976" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
+        <state line="4" column="24" selection-start="189" selection-end="189" vertical-scroll-proportion="0.123411976" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="7616">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="7616" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/font-awesome-4.1.0/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="67" selection-start="229" selection-end="229" vertical-scroll-proportion="0.09255898" vertical-offset="0" max-vertical-offset="551">
-          <folding />
-        </state>
+        <state line="3" column="67" selection-start="229" selection-end="229" vertical-scroll-proportion="0.09255898" vertical-offset="0" max-vertical-offset="551" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/font-awesome-4.1.0/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="26724">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="2" selection-start="9678" selection-end="9678" vertical-scroll-proportion="-28.09804" vertical-offset="1491" max-vertical-offset="3655">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="7" selection-end="300" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="26724" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="418" column="27" selection-start="7716" selection-end="7716" vertical-scroll-proportion="-6.48" vertical-offset="6944" max-vertical-offset="10387">
-          <folding />
-        </state>
+        <state line="418" column="27" selection-start="7716" selection-end="7716" vertical-scroll-proportion="-6.48" vertical-offset="6944" max-vertical-offset="10387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="39" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/users.php">
@@ -1240,93 +1226,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/ContactForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="919" selection-end="919" vertical-scroll-proportion="85.15385" vertical-offset="3132" max-vertical-offset="4250">
-          <folding />
-        </state>
+        <state line="54" column="49" selection-start="919" selection-end="919" vertical-scroll-proportion="85.15385" vertical-offset="3132" max-vertical-offset="4250" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="65" selection-start="351" selection-end="351" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="2380">
           <folding>
-            <element signature="e#1496#1522#0" expanded="true" />
-            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#1" expanded="false" />
-            <element signature="e#3124#3149#0" expanded="true" />
-            <element signature="e#4452#4474#0" expanded="true" />
-            <element signature="e#6528#6553#0" expanded="true" />
-            <element signature="e#8116#8138#0" expanded="true" />
-            <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#1" expanded="false" />
-            <element signature="e#10309#10334#0" expanded="true" />
-            <element signature="e#11672#11694#0" expanded="true" />
-            <element signature="e#13665#13690#0" expanded="true" />
-            <element signature="e#14987#15009#0" expanded="true" />
-            <element signature="e#16985#17010#0" expanded="true" />
-            <element signature="e#18399#18421#0" expanded="true" />
-            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#1" expanded="false" />
-            <element signature="e#20595#20620#0" expanded="true" />
-            <element signature="e#22026#22048#0" expanded="true" />
-            <element signature="tag#div#3;tag#div#1;tag#div#0;tag#div#0;tag#div#1" expanded="false" />
-            <element signature="e#24186#24211#0" expanded="true" />
-            <element signature="e#25612#25634#0" expanded="true" />
-            <element signature="e#27617#27642#0" expanded="true" />
-            <element signature="e#29084#29106#0" expanded="true" />
-            <element signature="e#31042#31067#0" expanded="true" />
-            <element signature="e#32407#32429#0" expanded="true" />
-            <element signature="e#34307#34332#0" expanded="true" />
-            <element signature="e#35747#35769#0" expanded="true" />
-            <element signature="e#37684#37709#0" expanded="true" />
-            <element signature="e#39144#39166#0" expanded="true" />
-            <element signature="tag#div#4;tag#div#1;tag#div#0;tag#div#0;tag#div#1" expanded="false" />
-            <element signature="e#41269#41294#0" expanded="true" />
-            <element signature="e#42678#42700#0" expanded="true" />
-            <element signature="e#44711#44736#0" expanded="true" />
-            <element signature="e#46152#46174#0" expanded="true" />
+            <element signature="e#1496#1522#0" expanded="false" />
+            <element signature="e#3124#3149#0" expanded="false" />
+            <element signature="e#4452#4474#0" expanded="false" />
+            <element signature="e#6528#6553#0" expanded="false" />
+            <element signature="e#8116#8138#0" expanded="false" />
+            <element signature="e#10309#10334#0" expanded="false" />
+            <element signature="e#11672#11694#0" expanded="false" />
+            <element signature="e#13665#13690#0" expanded="false" />
+            <element signature="e#14987#15009#0" expanded="false" />
+            <element signature="e#16985#17010#0" expanded="false" />
+            <element signature="e#18399#18421#0" expanded="false" />
+            <element signature="e#20595#20620#0" expanded="false" />
+            <element signature="e#22026#22048#0" expanded="false" />
+            <element signature="e#24186#24211#0" expanded="false" />
+            <element signature="e#25612#25634#0" expanded="false" />
+            <element signature="e#27617#27642#0" expanded="false" />
+            <element signature="e#29084#29106#0" expanded="false" />
+            <element signature="e#31042#31067#0" expanded="false" />
+            <element signature="e#32407#32429#0" expanded="false" />
+            <element signature="e#34307#34332#0" expanded="false" />
+            <element signature="e#35747#35769#0" expanded="false" />
+            <element signature="e#37684#37709#0" expanded="false" />
+            <element signature="e#39144#39166#0" expanded="false" />
+            <element signature="e#41269#41294#0" expanded="false" />
+            <element signature="e#42678#42700#0" expanded="false" />
+            <element signature="e#44711#44736#0" expanded="false" />
+            <element signature="e#46152#46174#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="1740" selection-end="1740" vertical-scroll-proportion="-13.653846" vertical-offset="155" max-vertical-offset="731">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/contactPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="534" selection-end="534" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
+        <state line="16" column="67" selection-start="534" selection-end="534" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="0" selection-start="5740" selection-end="5740" vertical-scroll-proportion="0.9381818" vertical-offset="1592" max-vertical-offset="2210">
-          <folding />
-        </state>
+        <state line="124" column="0" selection-start="5740" selection-end="5740" vertical-scroll-proportion="0.9381818" vertical-offset="1592" max-vertical-offset="2210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="44" selection-start="812" selection-end="812" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="680">
-          <folding>
-            <element signature="e#60#108#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="2" column="28" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3902" column="12" selection-start="76532" selection-end="76532" vertical-scroll-proportion="0.46853146" vertical-offset="66066" max-vertical-offset="106403">
-          <folding />
-        </state>
+        <state line="3902" column="12" selection-start="76532" selection-end="76532" vertical-scroll-proportion="0.46853146" vertical-offset="66066" max-vertical-offset="106403" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig">
@@ -1338,56 +1293,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="300" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.27495623" vertical-offset="251" max-vertical-offset="2686">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#p#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#address#0;n#div#2;n#div#0;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#3;n#address#0;n#div#2;n#div#0;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#sub#0;n#span#0;n#p#3;n#address#0;n#div#2;n#div#0;n#section#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#center#0;n#section#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="24" column="300" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.27495623" vertical-offset="251" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/offersPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="462" selection-end="462" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="561">
+        <state line="17" column="2" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="650" column="26" selection-start="20096" selection-end="41965" vertical-scroll-proportion="-8.039216" vertical-offset="10640" max-vertical-offset="11254">
+        <state line="650" column="26" selection-start="20096" selection-end="41965" vertical-scroll-proportion="-15.769231" vertical-offset="10640" max-vertical-offset="11254">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="74" selection-start="280" selection-end="280" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="14" selection-start="13555" selection-end="13555" vertical-scroll-proportion="-83.5" vertical-offset="1858" max-vertical-offset="4131">
+          <folding>
+            <element signature="e#984#1020#0" expanded="true" />
+            <element signature="e#1909#1945#0" expanded="true" />
+            <element signature="e#2437#2473#0" expanded="true" />
+            <element signature="e#3707#3799#0" expanded="true" />
+            <element signature="e#3817#3840#0" expanded="true" />
+            <element signature="e#4423#4461#0" expanded="true" />
+            <element signature="e#4654#4677#0" expanded="true" />
+            <element signature="e#4736#4759#0" expanded="true" />
+            <element signature="e#5661#5699#0" expanded="true" />
+            <element signature="e#5892#5915#0" expanded="true" />
+            <element signature="e#5974#5997#0" expanded="true" />
+            <element signature="e#6902#6940#0" expanded="true" />
+            <element signature="e#7133#7156#0" expanded="true" />
+            <element signature="e#7215#7238#0" expanded="true" />
+            <element signature="e#8098#8136#0" expanded="true" />
+            <element signature="e#8329#8352#0" expanded="true" />
+            <element signature="e#8411#8434#0" expanded="true" />
+            <element signature="e#9382#9410#0" expanded="true" />
+            <element signature="e#9465#9490#0" expanded="true" />
+            <element signature="e#11102#11130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="82" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-13.5" vertical-offset="91" max-vertical-offset="663">
+          <folding>
+            <element signature="e#60#108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="506" column="24" selection-start="25323" selection-end="25323" vertical-scroll-proportion="0.521978" vertical-offset="8317" max-vertical-offset="11866">
+        <state line="12" column="36" selection-start="789" selection-end="789" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="11866">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18545455" vertical-offset="0" max-vertical-offset="731">
           <folding>
-            <element signature="e#2457#2483#0" expanded="true" />
-            <element signature="e#2578#2602#0" expanded="true" />
-            <element signature="e#4460#4484#0" expanded="true" />
-            <element signature="e#7732#7756#0" expanded="true" />
-            <element signature="e#10419#10443#0" expanded="true" />
-            <element signature="e#14279#14303#0" expanded="true" />
-            <element signature="e#18225#18301#0" expanded="true" />
-            <element signature="e#22792#22816#0" expanded="true" />
-            <element signature="e#23255#23280#0" expanded="true" />
-            <element signature="e#24565#24587#0" expanded="true" />
-            <element signature="e#31951#31975#0" expanded="true" />
-            <element signature="e#32406#32431#0" expanded="true" />
-            <element signature="e#33720#33742#0" expanded="true" />
+            <element signature="e#543#559#0" expanded="true" />
+            <element signature="e#777#818#0" expanded="true" />
+            <element signature="e#950#972#0" expanded="true" />
+            <element signature="e#1307#1348#0" expanded="true" />
+            <element signature="e#1513#1540#0" expanded="true" />
+            <element signature="e#1546#1570#0" expanded="true" />
+            <element signature="e#1780#1807#0" expanded="true" />
           </folding>
         </state>
       </provider>

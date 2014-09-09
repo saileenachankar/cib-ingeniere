@@ -20,12 +20,11 @@ class signInPageController extends Controller
 
             if($user)
             {
-                echo($user->getFirstname());
-                return $this->render('cibWebsitecibIngenierieBundle:homePage:index2.html.twig', array('name'=>$user->getFirstname()));
+                return $this->render('cibWebsitecibIngenierieBundle:homePage:index.html.twig', array('name'=>$user->getFirstname()));
             }
             else {
-                echo("c'est mal");
-                return $this->render('cibWebsitecibIngenierieBundle:homePage:index2.html.twig');
+
+                return $this->render('cibWebsitecibIngenierieBundle:homePage:index.html.twig');
             }
         }
 

@@ -2,137 +2,165 @@
 
 {% block body %}
 
-<div class="container">
-    <div class="row">
-        {#<div class="col-md-1"></div>#}
-        <div class="col-md-12">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-       <ol class="carousel-indicators">
-           <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-       </ol>
+    <div class="container">
+        <div class="row">
+            {#<div class="col-md-1"></div>#}
+            <div class="col-md-12">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    </ol>
 
-           <!-- Wrapper for slides -->
-                <center>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <img src="{{ asset('image/image1.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
-                        {#<div class="carousel-caption">
-                        <div class="animated bounceInRight">
-                        <h1 class="carouselTitle">Title</h1>
+                    <!-- Wrapper for slides -->
+                    <center>
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="{{ asset('image/image1.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
+                                {#<div class="carousel-caption">
+                                <div class="animated bounceInRight">
+                                <h1 class="carouselTitle">Title</h1>
+                                </div>
+                                <p class="carouselText animated bounceInRight delay">text</p>
+                                </div>#}
+                                <div class="caption animated fadeIn"> {#animated fadeIn#}
+                                    <p class="title">testing it.</p>
+                                    <hr>
+                                    <p class="description"> description text</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('image/image2.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
+                                <div class="caption animated fadeIn">
+                                    <p class="title">testing it.</p>
+                                    <hr>
+                                    <p class="description"> description text</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="{{ asset('image/image3.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
+                                <div class="caption animated fadeIn">
+                                    <p class="title">testing it.</p>
+                                    <hr>
+                                    <p class="description"> description text</p>
+                                </div>
+                            </div>
                         </div>
-                        <p class="carouselText animated bounceInRight delay">text</p>
-                        </div>#}
-                        <div class="caption animated fadeIn"> {#animated fadeIn#}
-                            <p class="title">testing it.</p>
-                            <hr>
-                            <p class="description"> description text</p>
+                    </center>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {#</div>#}
+        {# </div>
+
+            <div class="container" style="margin:15px 0px;"></div> #}
+
+
+        <div class="row"> {#container#}
+            <div class="col-md-12">
+                {#<div style="margin-bottom: 30px;">#}
+                <h1 class="page-title text-center" style="border: 2px outset #e91b23; border-radius: 5px; background: #e91b23; color: #ffffff;">NOUS SOMMES <div style="display: inline"><div id="animate-text1">LE MIMÉTISME MONETIQUE</div><div id="animate-text2">LE CREATEUR DE LOGICIELS SUR TERMINAUX DE PAIEMENT ELECTRONIQUE</div></div></h1> {#SAVOIR QUI NOUS SOMMES#}
+                {#</div>#}
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-xs-6 col-md-3">
+                <div class="box2">
+                    <div class="thumbnail text-center">
+                        <div class="logoBoxHomePage">
+                            <div class="logoBoxInnerHomePage">
+                                <i class="fa fa-building" style="top: -14%; position: relative;"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('image/image2.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
-                        <div class="caption animated fadeIn">
-                            <p class="title">testing it.</p>
-                            <hr>
-                            <p class="description"> description text</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="{{ asset('image/image3.jpg') }}" alt="..." class="img-responsive" style="height: 400px; width: 500px;">
-                        <div class="caption animated fadeIn">
-                            <p class="title">testing it.</p>
-                            <hr>
-                            <p class="description"> description text</p>
+                        {#<img src="{{ asset('image/logo-small.png') }}">#}
+                        <div class="caption" style="color: #555555;">
+                            <h3 class="thumbnail-header" style="color: #555555;">Societe</h3>
+                            <p class="text-justify">Fondée en 1992, la société C.I.B Ingénierie conçoit développe et commercialise des solutions innovantes sur terminaux de paiement électronique.
+                                C.I.B Ingénierie est experte en système embarquée lié à la monétique.</p>
+                            <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_aboutpage') }}" type="button" class="btn btn-xs btnTrial" >En Savoir Plus</a></center></p>
                         </div>
                     </div>
                 </div>
-                </center>
-
-                <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="box2">
+                    <div class="thumbnail text-center">
+                        <div class="logoBoxHomePage">
+                            <div class="logoBoxInnerHomePage">
+                                <i class="fa fa-ticket" style="top: -14%; position: relative;"></i>
+                            </div>
+                        </div>
+                        {#<img src="{{ asset('image/logo-small.png') }}">#}
+                        <div class="caption" style="color: #555555;">
+                            <h3 class="thumbnail-header" style="color: #555555;">Software</h3>
+                            <p class="text-justify">Les solutions logicielles de CIB Ingénierie autorisent la fidélité, l’encaissement en mobilité,le porte-monnaie électronique, le pointage, la sécurisation des opérations bancaires etc. en contact et sans contact avec des BackOffice dédiés.</p>
+                            <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}" type="button" class="btn btn-xs btnTrial">En Savoir Plus</a></center></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="box2">
+                    <div class="thumbnail text-center">
+                        <div class="logoBoxHomePage">
+                            <div class="logoBoxInnerHomePage">
+                                <i class="fa fa-credit-card" style="top: -14%; position: relative;"></i>
+                            </div>
+                        </div>
+                        {#<img src="{{ asset('image/logo-small.png') }}">#}
+                        <div class="caption" style="color: #555555;">
+                            <h3 class="thumbnail-header" style="color: #555555;">Hardware</h3>
+                            <p class="text-justify">Fort de nombreuses années d’expérience, nous mettons à votre disposition notre connaissance des gammes de matériels monétiques (système bancaire pour automates, terminaux de paiement autonome, etc.). </p>
+                            <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}" type="button" class="btn btn-xs btnTrial">En Savoir Plus</a></center></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-3">
+                <div class="box2">
+                    <div class="thumbnail text-center">
+                        <div class="logoBoxHomePage">
+                            <div class="logoBoxInnerHomePage">
+                                <i class="fa fa-magic" style="top: -14%; position: relative;"></i>
+                            </div>
+                        </div>
+                        {#<img src="{{ asset('image/logo-small.png') }}">#}
+                        <div class="caption" style="color: #555555;">
+                            <h3 class="thumbnail-header" style="color: #555555;">Services</h3>
+                            <p class="text-justify">Afin d’apporter un service de qualité, CIB Ingénierie fournit à ses clients, des solutions de maintenance matériels, des contrats d’assistance logiciels, des services de developpement à façon et de vielle technologique.</p>
+                            <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_servicespage') }}" type="button" class="btn btn-xs btnTrial">En Savoir Plus</a></center></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    {#</div>#}
-    {# </div>
 
-        <div class="container" style="margin:15px 0px;"></div> #}
-
-
-    <div class="row"> {#container#}
-        <div class="col-md-12">
-        {#<div style="margin-bottom: 30px;">#}
-            <h1 class="page-title text-center">NOUS SOMMES <div style="display: inline"><div id="animate-text1">LE MIMÉTISME MONETIQUE</div><div id="animate-text2">LE CREATEUR DE LOGICIELS SUR TERMINAUX DE PAIEMENT ELECTRONIQUE</div></div></h1> {#SAVOIR QUI NOUS SOMMES#}
-        {#</div>#}
-        </div>
-    </div>
-    <div class="row">
-
-	    <div class="col-xs-6 col-md-3">
-	            <div class="thumbnail red">
-		            {#<img src="{{ asset('image/logo-small.png') }}">#}
-		            <div class="caption">
-		                <h3 class="thumbnail-header">Societe</h3>
-                        <p class="text-justify">Fondée en 1992, la société C.I.B Ingénierie conçoit développe et commercialise des solutions innovantes sur terminaux de paiement électronique.<br>
-                        C.I.B Ingénierie est experte en système embarquée lié à la monétique.</p>
-                        <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_aboutpage') }}" type="button" class="btn btn-xs white-btn">En Savoir Plus</a></center></p>
-                    </div>
-	            </div>
-	        </div>
-	        <div class="col-xs-6 col-md-3">
-	            <div class="thumbnail red" >
-		            {#<img src="{{ asset('image/logo-small.png') }}">#}
-		            <div class="caption">
-		                <h3 class="thumbnail-header">Software</h3>
-		                <p class="text-justify">Les solutions logicielles de CIB Ingénierie autorisent la fidélité, l’encaissement en mobilité,le porte-monnaie électronique, le pointage, la sécurisation des opérations bancaires etc. en contact et sans contact avec des BackOffice dédiés.</p>
-                        <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_logicielspage') }}" type="button" class="btn btn-xs white-btn">En Savoir Plus</a></center></p>
-                    </div>
-	            </div>
-	        </div>
-	        <div class="col-xs-6 col-md-3">
-	            <div class="thumbnail red">
-	                {#<img src="{{ asset('image/logo-small.png') }}">#}
-	                <div class="caption">
-	                    <h3 class="thumbnail-header">Hardware</h3>
-                        <p class="text-justify">Fort de nombreuses années d’expérience, nous mettons à votre disposition notre connaissance des gammes de matériels monétiques (système bancaire pour automates, terminaux de paiement autonome, etc.). <i style="color: transparent;">to generate very long space I used transparent font</i> </p>
-		                <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_materielspage') }}" type="button" class="btn btn-xs white-btn">En Savoir Plus</a></center></p>
-                    </div>
-	            </div>
-	        </div>
-	        <div class="col-xs-6 col-md-3">
-	            <div class="thumbnail red">
-                    {#<img src="{{ asset('image/logo-small.png') }}">#}
-		            <div class="caption">
-		                <h3 class="thumbnail-header">Services</h3>
-		                <p class="text-justify">Afin d’apporter un service de qualité, CIB Ingénierie fournit à ses clients, des solutions de maintenance matériels, des contrats d’assistance logiciels, des services de developpement à façon et de vielle technologique. <i style="color: transparent;">to generate very long space</i></p>
-		                <p><center><a href="{{ path('cibWebsitecibIngenierieBundle_servicespage') }}" type="button" class="btn btn-xs white-btn">En Savoir Plus</a></center></p>
-                    </div>
-	            </div>
-	        </div>
-    </div>
-
-    <hr>
+        <hr>
 
 
 
 
-{#<div class="container" style="margin:15px 0px;"></div>#}
+        {#<div class="container" style="margin:15px 0px;"></div>#}
 
-{#<div class="container">#}
-    {#<div id="container">
-    <div class="container">#}
-            <div class="row">
-	            <div class="col-md-6">
-	                <div class="thumbnail "> {#wrapper#}
-		                <h3 class="page-title blackBottomBorder" style="margin-bottom: 30px;">Nos Metiers</h3>
-                        <div class="row" style="margin-bottom: 0;">
+        {#<div class="container">#}
+        {#<div id="container">
+        <div class="container">#}
+        <div class="row">
+            <div class="col-md-6">
+                <div class="thumbnail "> {#wrapper#}
+                    <h3 class="page-title blackBottomBorder" style="margin-bottom: 30px;">Nos Metiers</h3>
+                    <div class="row" style="margin-bottom: 0;">
                         <div class="col-sm-7">
                             <img class="well" id="imageBox" src="{{ asset('image/logo-small.png') }}">
                         </div>
@@ -147,64 +175,64 @@
                                 <li id="pcb" onmouseover="showImage(this.id)"><span class="dark-text">Carte</span></li>
                             </ul>
                         </div>
-		                {#<img src="{{ asset('image/image4.png') }}" alt="...">#}
-                            </div>
-	                </div>
-	            </div>
-	            <div class="col-md-6">
-	                <div class="thumbnail "> {#wrapper#}
-		                <h3 class="page-title blackBottomBorder" style="margin-bottom: 15px;">Nos Expertise</h3> {#text-center red-bottom-border#}
-
-                        <ul class="arrow">
-                            <li>Logiciels de monetique et d'encaissement.</li>
-                            <li>D'applications cartes et de chargement telephonique, D'automatisme et de controle.</li>
-                            <li>De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</li>
-                            <li>De serveurs de telecollecte.</li>
-                            <li>De logiciels de gestion centralisee on et off line.</li>
-                            <li>De logiciels de gestion de base de donnees.</li>
-                        </ul>
-	                </div>
-	            </div>
+                        {#<img src="{{ asset('image/image4.png') }}" alt="...">#}
+                    </div>
+                </div>
             </div>
-    {#</div>
-</div>#}
+            <div class="col-md-6">
+                <div class="thumbnail "> {#wrapper#}
+                    <h3 class="page-title blackBottomBorder" style="margin-bottom: 15px;">Nos Expertise</h3> {#text-center red-bottom-border#}
+
+                    <ul class="arrow">
+                        <li>Logiciels de monetique et d'encaissement.</li>
+                        <li>D'applications cartes et de chargement telephonique, D'automatisme et de controle.</li>
+                        <li>De materiels de paiement electronique TPE, caisses enregistreuses, automates... couples a de nombreux peripheriques.</li>
+                        <li>De serveurs de telecollecte.</li>
+                        <li>De logiciels de gestion centralisee on et off line.</li>
+                        <li>De logiciels de gestion de base de donnees.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        {#</div>
+    </div>#}
     </div>
 
-{#{% block javascripts %}
-        <script type="text/javascript">
+    {#{% block javascripts %}
+            <script type="text/javascript">
 
-        function showImage(id)
-        {
+            function showImage(id)
+            {
 
-            switch (id) {
-                case 'pmon':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/pmon.jpg') }}";
-                    break;
-                case 'pencais':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/pencais.jpg') }}";
-                    break;
-                case 'ppme':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/ppme.jpg') }}";
-                    break;
-                case 'pfid':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/pfid.jpg') }}";
-                    break;
-                case 'pauto':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/pauto.jpg') }}";
-                    break;
-                case 'pinge':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/pinge.jpg') }}";
-                    break;
-                case 'pcb':
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/pcb.jpg') }}";
-                    break;
-                default:
-                    document.getElementById("imageBox").src = "{{ asset('image/homePage/logo-small.png') }}";
-                    break;
+                switch (id) {
+                    case 'pmon':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/pmon.jpg') }}";
+                        break;
+                    case 'pencais':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/pencais.jpg') }}";
+                        break;
+                    case 'ppme':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/ppme.jpg') }}";
+                        break;
+                    case 'pfid':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/pfid.jpg') }}";
+                        break;
+                    case 'pauto':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/pauto.jpg') }}";
+                        break;
+                    case 'pinge':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/pinge.jpg') }}";
+                        break;
+                    case 'pcb':
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/pcb.jpg') }}";
+                        break;
+                    default:
+                        document.getElementById("imageBox").src = "{{ asset('image/homePage/logo-small.png') }}";
+                        break;
+                }
             }
-        }
-       </script>
+           </script>
 
-         {% endblock %} #}
+             {% endblock %} #}
 
 {% endblock %}
