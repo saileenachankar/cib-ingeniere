@@ -4,6 +4,10 @@
     <list default="true" id="0108fac3-8a4a-46be-8afc-b4d4a6cd0101" name="Default" comment="" />
     <ignored path="cib-ingeniere.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/app/cache/" />
+    <ignored path="$PROJECT_DIR$/app/logs/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,95 +27,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="materiels.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig">
+      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="650" column="26" selection-start="20096" selection-end="41965" vertical-scroll-proportion="-15.769231" vertical-offset="10640" max-vertical-offset="11254">
+            <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="952">
+              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="materielsnew.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="36" selection-start="789" selection-end="789" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="11866">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="37" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18545455" vertical-offset="0" max-vertical-offset="731">
-              <folding>
-                <element signature="e#543#559#0" expanded="true" />
-                <element signature="e#777#818#0" expanded="true" />
-                <element signature="e#950#972#0" expanded="true" />
-                <element signature="e#1307#1348#0" expanded="true" />
-                <element signature="e#1513#1540#0" expanded="true" />
-                <element signature="e#1546#1570#0" expanded="true" />
-                <element signature="e#1780#1807#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="14" selection-start="13555" selection-end="13555" vertical-scroll-proportion="-83.5" vertical-offset="1858" max-vertical-offset="4131">
-              <folding>
-                <element signature="e#984#1020#0" expanded="true" />
-                <element signature="e#1909#1945#0" expanded="true" />
-                <element signature="e#2437#2473#0" expanded="true" />
-                <element signature="e#3707#3799#0" expanded="true" />
-                <element signature="e#3817#3840#0" expanded="true" />
-                <element signature="e#4423#4461#0" expanded="true" />
-                <element signature="e#4654#4677#0" expanded="true" />
-                <element signature="e#4736#4759#0" expanded="true" />
-                <element signature="e#5661#5699#0" expanded="true" />
-                <element signature="e#5892#5915#0" expanded="true" />
-                <element signature="e#5974#5997#0" expanded="true" />
-                <element signature="e#6902#6940#0" expanded="true" />
-                <element signature="e#7133#7156#0" expanded="true" />
-                <element signature="e#7215#7238#0" expanded="true" />
-                <element signature="e#8098#8136#0" expanded="true" />
-                <element signature="e#8329#8352#0" expanded="true" />
-                <element signature="e#8411#8434#0" expanded="true" />
-                <element signature="e#9382#9410#0" expanded="true" />
-                <element signature="e#9465#9490#0" expanded="true" />
-                <element signature="e#11102#11130#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signInPageController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="82" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-13.5" vertical-offset="91" max-vertical-offset="663">
-              <folding>
-                <element signature="e#60#108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homePageController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="74" selection-start="280" selection-end="280" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+            <state vertical-scroll-proportion="0.14886165" vertical-offset="0" max-vertical-offset="4131">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offersPageController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/offersPageController.php">
+      <file leaf-file-name="SecuredController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/SecuredController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="2" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
+            <state vertical-scroll-proportion="-3.5" vertical-offset="300" max-vertical-offset="1258">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding>
+                <element signature="e#46#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signInPageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="85" max-vertical-offset="1071">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#60#107#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2307692" vertical-offset="826" max-vertical-offset="2686">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signIn.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="901">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -126,31 +100,31 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s assets:install web/" />
-      <command text="composer update" />
       <command text="s doctrine:generate:entity" />
-      <command text="s doctrine:database:create" />
-      <command text="s doctrine:schema:create" />
-      <command text="s doctrine:generate:entities cibWebsitecibIngenierieBunle:Users" />
-      <command text="s doctrine:schema:drop" />
-      <command text="s doctrine:schema:update" />
-      <command text="s doctrine:generate:entities cibWebsitecibIngenierieBundle:Users" />
-      <command text="s doctrine:schema:drop" />
-      <command text="s doctrine:schema:drop --force" />
-      <command text="s doctrine:generate:entity cibWebsitecibIngenierieBundle:users" />
-      <command text="s doctrine:schema:create" />
-      <command text="s cache:clear" />
-      <command text="s doctrine:cache:clear-metadata" />
-      <command text="s cache:clear" />
-      <command text="s doctrine:schema:create" />
-      <command text="s doctrine:database:drop" />
-      <command text="s doctrine:database:drop --force " />
-      <command text="s cache:clear" />
-      <command text="s doctrine:cache:clear-metadata" />
-      <command text="s doctrine:generate:entity" />
-      <command text="s doctrine:database:create" />
+      <command text="s doctrine:generate:entities cibWebsite" />
       <command text="s doctrine:generate:entities cibWebsitecibIngenierieBundle" />
       <command text="s doctrine:schema:create" />
+      <command text="s doctrine:cache:clear-metadata" />
+      <command text="s cache:clear --force" />
+      <command text="s cache:clear" />
+      <command text="s doctrine:cache:clear-metadata" />
+      <command text="s doctrine:generate:entity " />
+      <command text="s doctrine:schema:create" />
+      <command text="s cache:clear" />
+      <command text="s doctrine:generate:entities cibWebsitecibIngenierieBundle" />
+      <command text="s doctrine:schema:create cibWebsitecibIngenierieBundle:User" />
+      <command text="s doctrine:schema:create" />
+      <command text="s " />
+      <command text="s doctrine:cache:clear-metadata" />
+      <command text="s doctrine:cache:clear-query" />
+      <command text="s doctrine:cache:clear-result" />
+      <command text="s doctrine:generate:entities cibWebsitecibIngenierieBundle" />
+      <command text="s doctrine:schema:create" />
+      <command text="s doctrine:fixtures:load" />
+      <command text="s assets:install web/" />
+      <command text="s assets:install web/homePage" />
+      <command text="s assets:install web/image/homePage" />
+      <command text="s assets:install web/" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -171,31 +145,42 @@
         <option value="$PROJECT_DIR$/web/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Form/ContactFormType.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contactForm.html.twig" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/contactPageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/services.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index2.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/aboutPage/about.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/web/css/styleSheet.css" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/offersPageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php" />
-        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php" />
         <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/contactPageController.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contactEmail.txt.twig" />
+        <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
+        <option value="$PROJECT_DIR$/app/config/config_test.yml" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/users.php" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/ User.php" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/DataFixtures/ORM/LoadUserInterface.php" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/app/config/security.yml" />
+        <option value="$PROJECT_DIR$/web/css/styleSheet.css" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
-    <option name="servers">
+    <servers>
       <server host="localhost" name="localhost" port="8080" />
-    </option>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php5.5.8" />
   <component name="ProjectFrameBounds">
@@ -218,7 +203,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -230,6 +215,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,186 +276,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="offers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="produits" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome-4.1.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-3.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-3.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-3.2.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -488,11 +294,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
+              <option name="myItemId" value="Acme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
+              <option name="myItemId" value="DemoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,11 +316,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
+              <option name="myItemId" value="Acme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
+              <option name="myItemId" value="DemoBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cib-ingeniere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cib-ingeniere" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Acme" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DemoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -526,7 +362,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="signInPage" />
+              <option name="myItemId" value="Secured" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -544,11 +380,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
+              <option name="myItemId" value="Acme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
+              <option name="myItemId" value="DemoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -560,7 +396,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="offersPage" />
+              <option name="myItemId" value="Demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -578,25 +414,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
+              <option name="myItemId" value="Acme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
+              <option name="myItemId" value="DemoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="homePage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -612,229 +440,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
+              <option name="myItemId" value="Acme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contactPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aboutPage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="doctrine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibWebsite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cibIngenierieBundle" />
+              <option name="myItemId" value="DemoBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -878,27 +488,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cib-ingeniere" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -907,7 +498,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GitHubSetup.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cib-time" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="SearchEverywhereHistory" value="" />
@@ -921,8 +512,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\projects\cib-ingeniere\web\image" />
-      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\projects\cib-ingeniere\web" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\projects\cib-ingeniere\src\cibWebsite\cibIngenierieBundle\Resources\public\image" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\projects\cib-ingeniere\web\image\homePage" />
+      <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\projects\cib-ingeniere\web" />
       <recent name="C:\Program Files (x86)\EasyPHP-DevServer-14.1VC11\data\localweb\projects\cib-ingeniere\web\css" />
     </key>
   </component>
@@ -931,19 +523,31 @@
       <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="localhost" start_url="http://localhost/projects/cib-ingeniere/web/app_dev.php/">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="localhost" start_url="http://localhost/projects/cib-ingeniere/web/app_dev.php/">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="false" name="symfony" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="localhost" start_url="http://localhost/projects/cib-ingeniere/web/app_dev.php/">
+    <configuration default="false" name="symfony" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" server_name="localhost" start_url="http://localhost/projects/cib-ingeniere/web/app_dev.php/">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -953,55 +557,43 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0108fac3-8a4a-46be-8afc-b4d4a6cd0101" name="Default" comment="" />
       <created>1405031805255</created>
+      <option name="number" value="Default" />
       <updated>1405031805255</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31675392" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24231333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24011713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5157233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.495283" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1014,20 +606,23 @@
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2861635" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24011713" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28301886" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5157233" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
   </component>
@@ -1041,338 +636,378 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="0" selection-start="3727" selection-end="3727" vertical-scroll-proportion="0.0" vertical-offset="3198" max-vertical-offset="3808" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="2448" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="57" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="215" column="1" selection-start="3886" selection-end="3886" vertical-scroll-proportion="0.0" vertical-offset="3259" max-vertical-offset="3808" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="48" selection-start="1382" selection-end="1382" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="42" selection-start="17391" selection-end="17391" vertical-scroll-proportion="0.0" vertical-offset="4607" max-vertical-offset="6681" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="1369" selection-end="1390" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="42" selection-start="10348" selection-end="10348" vertical-scroll-proportion="0.0" vertical-offset="2924" max-vertical-offset="5355" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="22" selection-start="3559" selection-end="3559" vertical-scroll-proportion="0.0" vertical-offset="1432" max-vertical-offset="2380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="22" selection-start="3559" selection-end="3559" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Form/Contact_formType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="26" selection-start="0" selection-end="1146" vertical-scroll-proportion="-7.1538463" vertical-offset="205" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/Contact_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="169" selection-end="169" vertical-scroll-proportion="-3.9230769" vertical-offset="119" max-vertical-offset="4250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="75274" selection-start="75439" selection-end="75439" vertical-scroll-proportion="-2.72" vertical-offset="0" max-vertical-offset="170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3127" column="45" selection-start="80301" selection-end="80301" vertical-scroll-proportion="0.0" vertical-offset="52831" max-vertical-offset="53295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Form/ContactFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="684" selection-end="691" vertical-scroll-proportion="-3.3461537" vertical-offset="287" max-vertical-offset="850" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/aboutPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3321492" vertical-offset="0" max-vertical-offset="563" />
+        <state vertical-scroll-proportion="0.3321492" vertical-offset="0" max-vertical-offset="563">
+          <caret line="11" column="1" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/financement.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="87" selection-end="87" vertical-scroll-proportion="0.17465754" vertical-offset="0" max-vertical-offset="584" />
+        <state vertical-scroll-proportion="0.17465754" vertical-offset="0" max-vertical-offset="584">
+          <caret line="6" column="11" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.018835617" vertical-offset="11" max-vertical-offset="595" />
+        <state vertical-scroll-proportion="-0.018835617" vertical-offset="11" max-vertical-offset="595">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5450" selection-start="5619" selection-end="5619" vertical-scroll-proportion="0.1486014" vertical-offset="0" max-vertical-offset="572" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contactForm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="14" selection-start="3503" selection-end="3503" vertical-scroll-proportion="0.5345268" vertical-offset="1389" max-vertical-offset="2159" />
+        <state vertical-scroll-proportion="0.1486014" vertical-offset="0" max-vertical-offset="572">
+          <caret line="5" column="5450" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/services.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1309">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1309">
+          <caret line="15" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="9" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/aboutPage/about.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="98" selection-start="213" selection-end="213" vertical-scroll-proportion="0.14886165" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
+        <state vertical-scroll-proportion="0.14886165" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="5" column="98" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/js/bootstrap-hover-dropdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="264" selection-end="264" vertical-scroll-proportion="-2.2109928" vertical-offset="1383" max-vertical-offset="1972" />
+        <state vertical-scroll-proportion="-2.2109928" vertical-offset="1383" max-vertical-offset="1972">
+          <caret line="8" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.04537205" vertical-offset="25" max-vertical-offset="36040" />
+        <state vertical-scroll-proportion="-0.04537205" vertical-offset="25" max-vertical-offset="36040">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap-theme.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="189" selection-end="189" vertical-scroll-proportion="0.123411976" vertical-offset="0" max-vertical-offset="551" />
+        <state vertical-scroll-proportion="0.123411976" vertical-offset="0" max-vertical-offset="551">
+          <caret line="4" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap-theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="7616" />
+        <state vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="7616">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/font-awesome-4.1.0/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="67" selection-start="229" selection-end="229" vertical-scroll-proportion="0.09255898" vertical-offset="0" max-vertical-offset="551" />
+        <state vertical-scroll-proportion="0.09255898" vertical-offset="0" max-vertical-offset="551">
+          <caret line="3" column="67" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/font-awesome-4.1.0/css/font-awesome.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="26724" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="418" column="27" selection-start="7716" selection-end="7716" vertical-scroll-proportion="-6.48" vertical-offset="6944" max-vertical-offset="10387" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/users.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.9396092" vertical-offset="627" max-vertical-offset="1989">
-          <folding />
+        <state vertical-scroll-proportion="-0.043706294" vertical-offset="25" max-vertical-offset="26724">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/ContactForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="919" selection-end="919" vertical-scroll-proportion="85.15385" vertical-offset="3132" max-vertical-offset="4250" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/logiciels.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="65" selection-start="351" selection-end="351" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="2380">
-          <folding>
-            <element signature="e#1496#1522#0" expanded="false" />
-            <element signature="e#3124#3149#0" expanded="false" />
-            <element signature="e#4452#4474#0" expanded="false" />
-            <element signature="e#6528#6553#0" expanded="false" />
-            <element signature="e#8116#8138#0" expanded="false" />
-            <element signature="e#10309#10334#0" expanded="false" />
-            <element signature="e#11672#11694#0" expanded="false" />
-            <element signature="e#13665#13690#0" expanded="false" />
-            <element signature="e#14987#15009#0" expanded="false" />
-            <element signature="e#16985#17010#0" expanded="false" />
-            <element signature="e#18399#18421#0" expanded="false" />
-            <element signature="e#20595#20620#0" expanded="false" />
-            <element signature="e#22026#22048#0" expanded="false" />
-            <element signature="e#24186#24211#0" expanded="false" />
-            <element signature="e#25612#25634#0" expanded="false" />
-            <element signature="e#27617#27642#0" expanded="false" />
-            <element signature="e#29084#29106#0" expanded="false" />
-            <element signature="e#31042#31067#0" expanded="false" />
-            <element signature="e#32407#32429#0" expanded="false" />
-            <element signature="e#34307#34332#0" expanded="false" />
-            <element signature="e#35747#35769#0" expanded="false" />
-            <element signature="e#37684#37709#0" expanded="false" />
-            <element signature="e#39144#39166#0" expanded="false" />
-            <element signature="e#41269#41294#0" expanded="false" />
-            <element signature="e#42678#42700#0" expanded="false" />
-            <element signature="e#44711#44736#0" expanded="false" />
-            <element signature="e#46152#46174#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="2380">
+          <caret line="6" column="65" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/contactPageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="534" selection-end="534" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="459" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="0" selection-start="5740" selection-end="5740" vertical-scroll-proportion="0.9381818" vertical-offset="1592" max-vertical-offset="2210" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="28" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969" />
+        <state vertical-scroll-proportion="0.9381818" vertical-offset="1592" max-vertical-offset="2210">
+          <caret line="124" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/bootstrap-3.2.0/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3902" column="12" selection-start="76532" selection-end="76532" vertical-scroll-proportion="0.46853146" vertical-offset="66066" max-vertical-offset="106403" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="14" selection-start="802" selection-end="802" vertical-scroll-proportion="0.52397263" vertical-offset="0" max-vertical-offset="584">
-          <folding />
+        <state vertical-scroll-proportion="0.46853146" vertical-offset="66066" max-vertical-offset="106403">
+          <caret line="3902" column="12" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="300" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.27495623" vertical-offset="251" max-vertical-offset="2686" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/offersPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="2" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
+          <caret line="17" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materiels.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="650" column="26" selection-start="20096" selection-end="41965" vertical-scroll-proportion="-15.769231" vertical-offset="10640" max-vertical-offset="11254">
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="10640" max-vertical-offset="11254">
+          <caret line="650" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="11866">
+          <caret line="12" column="36" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="14" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="102" max-vertical-offset="731">
+          <caret line="20" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contactForm.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="601" max-vertical-offset="1275">
+          <caret line="68" column="71" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/contactPageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0769231" vertical-offset="90" max-vertical-offset="714">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Form/ContactFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9058219" vertical-offset="219" max-vertical-offset="850">
+          <caret line="46" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/ContactForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="476" max-vertical-offset="4250">
+          <caret line="29" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4180328" vertical-offset="0" max-vertical-offset="610">
+          <caret line="15" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.80491805" vertical-offset="36" max-vertical-offset="646">
+          <caret line="31" column="24" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contactEmail.txt.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08732877" vertical-offset="0" max-vertical-offset="584">
+          <caret line="3" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="4" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/homePageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="74" selection-start="280" selection-end="280" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="323">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="340">
+          <caret line="10" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Security/Core/User/UserInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060390763" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="2" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37842464" vertical-offset="17" max-vertical-offset="714">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1020">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/DataFixtures/ORM/LoadUserInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="14" selection-start="13555" selection-end="13555" vertical-scroll-proportion="-83.5" vertical-offset="1858" max-vertical-offset="4131">
+        <state vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="833">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
-            <element signature="e#984#1020#0" expanded="true" />
-            <element signature="e#1909#1945#0" expanded="true" />
-            <element signature="e#2437#2473#0" expanded="true" />
-            <element signature="e#3707#3799#0" expanded="true" />
-            <element signature="e#3817#3840#0" expanded="true" />
-            <element signature="e#4423#4461#0" expanded="true" />
-            <element signature="e#4654#4677#0" expanded="true" />
-            <element signature="e#4736#4759#0" expanded="true" />
-            <element signature="e#5661#5699#0" expanded="true" />
-            <element signature="e#5892#5915#0" expanded="true" />
-            <element signature="e#5974#5997#0" expanded="true" />
-            <element signature="e#6902#6940#0" expanded="true" />
-            <element signature="e#7133#7156#0" expanded="true" />
-            <element signature="e#7215#7238#0" expanded="true" />
-            <element signature="e#8098#8136#0" expanded="true" />
-            <element signature="e#8329#8352#0" expanded="true" />
-            <element signature="e#8411#8434#0" expanded="true" />
-            <element signature="e#9382#9410#0" expanded="true" />
-            <element signature="e#9465#9490#0" expanded="true" />
-            <element signature="e#11102#11130#0" expanded="true" />
+            <element signature="e#66#116#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="3213">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1054">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/styleSheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9798" max-vertical-offset="10455">
+          <caret line="608" column="13" selection-start-line="608" selection-start-column="13" selection-end-line="608" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/DemoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Demo/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7962329" vertical-offset="79" max-vertical-offset="731">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/AcmeDemoBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="610">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/signInPage/signIn.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="901">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="952">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Resources/views/Secured/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9404553" vertical-offset="58" max-vertical-offset="697">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/DemoBundle/Controller/SecuredController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5" vertical-offset="300" max-vertical-offset="1258">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="e#46#91#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Controller/signInPageController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="82" selection-start="1018" selection-end="1018" vertical-scroll-proportion="-13.5" vertical-offset="91" max-vertical-offset="663">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="85" max-vertical-offset="1071">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#60#108#0" expanded="true" />
+            <element signature="e#60#107#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/offersPage/materielsnew.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="789" selection-end="789" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="11866">
+        <state vertical-scroll-proportion="-2.2307692" vertical-offset="826" max-vertical-offset="2686">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/contactPage/contact.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/cibWebsite/cibIngenierieBundle/Resources/views/homePage/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="180" selection-end="180" vertical-scroll-proportion="0.18545455" vertical-offset="0" max-vertical-offset="731">
-          <folding>
-            <element signature="e#543#559#0" expanded="true" />
-            <element signature="e#777#818#0" expanded="true" />
-            <element signature="e#950#972#0" expanded="true" />
-            <element signature="e#1307#1348#0" expanded="true" />
-            <element signature="e#1513#1540#0" expanded="true" />
-            <element signature="e#1546#1570#0" expanded="true" />
-            <element signature="e#1780#1807#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.14886165" vertical-offset="0" max-vertical-offset="4131">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

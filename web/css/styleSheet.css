@@ -603,3 +603,8 @@ form.contactForm textarea {
 }
 
 */
+
+.tt {
+    background-image: url('../image/carouselBckgrnd.jpg');
+    height: 500px;
+}

@@ -64,3 +64,6 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+parameters:
+    cibWebsite_cibIngenierie.emails.contact_email: zoyaroya21@gmail.com

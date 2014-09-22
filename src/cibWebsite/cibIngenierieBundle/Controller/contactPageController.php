@@ -17,7 +17,18 @@ class contactPageController extends Controller
         $form = $this->createForm(new ContactFormType(), $contact);
         $form ->handleRequest($request);
         if ($form->isValid()) {
-            return new Response('test');
+            $message = \Swift_Message::newInstance()
+                ->setSubject('test subject')
+                ->setFrom('zoyaroya21@gmail.com')
+                ->setTo($this->container->getParameter('cibWebsite_cibIngenierie.emails.contact_email'))
+                ->setBody($this->renderView('cibWebsitecibIngenierieBundle:contactPage:contactEmail.txt.twig', array('contact' => $contact)));
+            $this->get('mailer')->send($message);
+
+            $this->get('session')->getFlashBag()->add('noticeSuccess', 'Your contact enquiry was successfully sent. Thank you!');
+
+            // Redirect - This is important to prevent users re-posting
+            // the form if they refresh the page
+            return $this->redirect($this->generateUrl('cibWebsitecibIngenierieBundle_contactpage'));
         }
 
         return $this->render('cibWebsitecibIngenierieBundle:contactPage:contact.html.twig', array('form' => $form->createView()));

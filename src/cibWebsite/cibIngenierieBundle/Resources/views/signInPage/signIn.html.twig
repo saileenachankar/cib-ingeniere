@@ -1,18 +1,47 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    {% if error %}
+        <div>{{ error.message }}</div>
+    {% endif %}
+
     <div class="container">
-        <div class="col-md-6 col-md-offset-3 col-sm-8">
-            <form role="form" method="POST">
+        <div class="row">
+            {% if app.user %}
+                {{ app.user.username }}
+
+            {%  endif %}
+            <a href="{{ path('logout') }}">Disconnect</a>
+        </div>
+        {#<div class="col-md-6 col-md-offset-3 col-sm-8">
+            <form role="form" method="post" action="{{ path('login_check') }}">
                 <div class="form-group">
                     <label for="username">Username</label>
-                    <input type="string" class="form-control" name="userName" id="username" placeholder="Enter username">
+                    <input type="text" class="form-control" name="_username" id="username" placeholder="Enter username" value="{{ last_Username }}">
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                    <input type="password" class="form-control" name="_password" id="password" placeholder="Password">
                 </div>
-                <button type="submit" class="btn btn-default">Submit</button>
+                <button type="submit" class="btn btn-default">Login</button>
+            </form>
+        </div>#}
+
+        <div class="col-md-6">
+            <form action="{{ path('login_check') }}" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="_username" value="{{ last_Username }}"/>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="_password"/>
+
+                {#
+                    If you want to control the URL the user
+                    is redirected to on success (more details below)
+                    <input type="hidden" name="_target_path" value="/account" />
+                #}
+
+                <button type="submit">login</button>
             </form>
         </div>
     </div>
